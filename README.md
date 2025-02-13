@@ -35,6 +35,14 @@ A collection of easy-to-follow lessons that explain supply chain ideas in plain 
 11. [Being Green (Sustainability)](modules/11_sustainability.md)
 12. [Putting It All Together](modules/12_putting_it_together.md)
 
+## The Algorithm Library (work in progress)
+
+We are writing a plain-English page for EVERY algorithm in the
+[supplycm package](https://github.com/atqatq/supplycm) - hundreds of them -
+each with a runnable example, self-check questions, and a challenge.
+
+Follow the progress in [algorithms/](algorithms/).
+
 ## Prerequisites
 
 - A computer with Python installed
