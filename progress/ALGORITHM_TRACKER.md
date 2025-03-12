@@ -56,3 +56,15 @@ Mark a box **only** when you can do all three:
 - [ ] [KS Test (Two Samples)](../algorithms/statistics/kolmogorov_smirnov_two_sample.md)
 - [ ] [Mann-Whitney U](../algorithms/statistics/mann_whitney_u.md)
 - [ ] [Wilcoxon Signed-Rank](../algorithms/statistics/wilcoxon_signed_rank.md)
+
+## Demand Planning (9)
+
+- [ ] [Demand Aggregation](../algorithms/demand/demand_aggregation.md)
+- [ ] [Demand Disaggregation](../algorithms/demand/demand_disaggregation.md)
+- [ ] [Seasonality Index](../algorithms/demand/seasonality_index.md)
+- [ ] [Promotional Demand Lift](../algorithms/demand/promotional_demand_lift.md)
+- [ ] [Cannibalization Effect](../algorithms/demand/cannibalization_effect.md)
+- [ ] [Stockout Demand Loss](../algorithms/demand/stockout_demand_loss.md)
+- [ ] [Demand Sensing](../algorithms/demand/demand_sensing.md)
+- [ ] [ABC-XYZ Demand Classification](../algorithms/demand/demand_class_abc_xyz.md)
+- [ ] [Trend + Seasonal Forecast](../algorithms/demand/trend_seasonal_decomposition_forecast.md)
