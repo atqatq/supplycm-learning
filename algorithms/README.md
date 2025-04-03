@@ -8,7 +8,7 @@ keywords: "supplycm, algorithm library, supply chain, plain english"
 
 Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm), explained in simple English with a runnable example and built-in self-testing. No math beyond +, -, ×, ÷.
 
-**Coverage so far: 49 of 396 algorithms across 2 of 22 modules.**
+**Coverage so far: 53 of 396 algorithms across 3 of 22 modules.**
 
 ## Available modules
 
@@ -16,12 +16,12 @@ Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm), e
 |--------|-----------|----------------|
 | [Statistics & Accuracy](statistics/README.md) | 40 | Measure things fairly: averages, spread, and forecast error. |
 | [Demand Planning](demand/README.md) | 9 | Shape and understand demand: seasons, promotions, substitutions. |
+| [Lean](lean/README.md) | 4 | Flow faster with takt time, OEE, and Little's Law. |
 
 ## On the way
 
 These modules are being written right now and will land here as they finish:
 
-- Lean (4 algorithms)
 - Quality (7 algorithms)
 - S&OP (3 algorithms)
 - Simulation (2 algorithms)

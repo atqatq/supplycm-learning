@@ -68,3 +68,10 @@ Mark a box **only** when you can do all three:
 - [ ] [Demand Sensing](../algorithms/demand/demand_sensing.md)
 - [ ] [ABC-XYZ Demand Classification](../algorithms/demand/demand_class_abc_xyz.md)
 - [ ] [Trend + Seasonal Forecast](../algorithms/demand/trend_seasonal_decomposition_forecast.md)
+
+## Lean (4)
+
+- [ ] [Takt Time](../algorithms/lean/takt_time.md)
+- [ ] [OEE (Overall Equipment Effectiveness)](../algorithms/lean/oee.md)
+- [ ] [Cycle Time Efficiency (PCE)](../algorithms/lean/cycle_time_efficiency.md)
+- [ ] [Little's Law: WIP](../algorithms/lean/wip_calculation.md)
