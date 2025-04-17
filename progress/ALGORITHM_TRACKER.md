@@ -75,3 +75,13 @@ Mark a box **only** when you can do all three:
 - [ ] [OEE (Overall Equipment Effectiveness)](../algorithms/lean/oee.md)
 - [ ] [Cycle Time Efficiency (PCE)](../algorithms/lean/cycle_time_efficiency.md)
 - [ ] [Little's Law: WIP](../algorithms/lean/wip_calculation.md)
+
+## Quality (7)
+
+- [ ] [DPMO (Defects Per Million Opportunities)](../algorithms/quality/dpmo.md)
+- [ ] [Sigma Level](../algorithms/quality/sigma_level.md)
+- [ ] [Process Capability (Cp)](../algorithms/quality/process_capability_cp.md)
+- [ ] [Process Capability (Cpk)](../algorithms/quality/process_capability_cpk.md)
+- [ ] [X-Bar Control Chart](../algorithms/quality/x_bar_chart.md)
+- [ ] [R Control Chart](../algorithms/quality/r_chart.md)
+- [ ] [P Control Chart](../algorithms/quality/p_chart.md)
