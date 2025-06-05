@@ -86,6 +86,12 @@ Mark a box **only** when you can do all three:
 - [ ] [R Control Chart](../algorithms/quality/r_chart.md)
 - [ ] [P Control Chart](../algorithms/quality/p_chart.md)
 
+## S&OP (3)
+
+- [ ] [Demand-Supply Match](../algorithms/sop/demand_supply_match.md)
+- [ ] [Chase Strategy](../algorithms/sop/production_chase_strategy.md)
+- [ ] [Level Strategy](../algorithms/sop/production_level_strategy.md)
+
 ## Supplier & Procurement (30)
 
 - [ ] [Weighted Point Method](../algorithms/supplier/weighted_point_method.md)
