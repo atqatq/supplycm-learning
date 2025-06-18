@@ -92,6 +92,15 @@ Mark a box **only** when you can do all three:
 - [ ] [Chase Strategy](../algorithms/sop/production_chase_strategy.md)
 - [ ] [Level Strategy](../algorithms/sop/production_level_strategy.md)
 
+## Simulation (2)
+
+- [ ] [Monte Carlo Inventory Simulation](../algorithms/simulation/monte_carlo_inventory.md)
+- [ ] [Monte Carlo Risk Simulation](../algorithms/simulation/monte_carlo_risk.md)
+
+## Risk (1)
+
+- [ ] [Supply Chain Resilience Index](../algorithms/risk/supply_chain_resilience_index.md)
+
 ## Supplier & Procurement (30)
 
 - [ ] [Weighted Point Method](../algorithms/supplier/weighted_point_method.md)
