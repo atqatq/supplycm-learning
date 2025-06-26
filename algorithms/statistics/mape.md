@@ -32,7 +32,7 @@ You should see something like:
 6.6667
 ```
 
-Roughly 5-8% typical error - strong for most consumer products; anything under 10% is usually considered healthy.
+Roughly 5-8% typical error - strong for most consumer products; anything under 10% is usually considered healthy. For a quick sanity check, compare your MAPE with the naive forecast’s MAPE on the same data: beating naive matters more than the absolute number.
 
 > **Watch out:** Watch out for near-zero actuals - they blow up MAPE. Use MAE or WMAPE alongside.
 

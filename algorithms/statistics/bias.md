@@ -32,7 +32,7 @@ You should see something like:
 -8.75
 ```
 
-A positive bias - every forecast landed below the actual, so the planner keeps being surprised by demand they should have seen coming.
+A positive bias - every forecast landed below the actual, so the planner keeps being surprised by demand they should have seen coming. Read bias TOGETHER with MAPE: bias gives the direction of the miss, MAPE gives its typical size.
 
 > **Watch out:** Track bias every month - a small persistent bias costs more than occasional big misses.
 
