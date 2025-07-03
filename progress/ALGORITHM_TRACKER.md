@@ -101,6 +101,17 @@ Mark a box **only** when you can do all three:
 
 - [ ] [Supply Chain Resilience Index](../algorithms/risk/supply_chain_resilience_index.md)
 
+## Costing (2)
+
+- [ ] [Landed Cost](../algorithms/cost/landed_cost.md)
+- [ ] [Total Procurement Cost](../algorithms/cost/total_cost_procurement.md)
+
+## Sustainability (3)
+
+- [ ] [Carbon Footprint of Transport](../algorithms/sustainability/carbon_footprint_transport.md)
+- [ ] [Warehouse Energy Consumption](../algorithms/sustainability/energy_consumption_warehouse.md)
+- [ ] [Reverse Logistics Cost](../algorithms/sustainability/reverse_logistics_cost.md)
+
 ## Supplier & Procurement (30)
 
 - [ ] [Weighted Point Method](../algorithms/supplier/weighted_point_method.md)

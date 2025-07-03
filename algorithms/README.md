@@ -8,7 +8,7 @@ keywords: "supplycm, algorithm library, supply chain, plain english"
 
 Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm), explained in simple English with a runnable example and built-in self-testing. No math beyond +, -, ×, ÷.
 
-**Coverage so far: 96 of 396 algorithms across 8 of 22 modules.**
+**Coverage so far: 101 of 396 algorithms across 10 of 22 modules.**
 
 ## Available modules
 
@@ -21,14 +21,14 @@ Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm), e
 | [S&OP](sop/README.md) | 3 | Balance demand and supply with chase and level plans. |
 | [Simulation](simulation/README.md) | 2 | Test decisions on thousands of imaginary futures. |
 | [Risk](risk/README.md) | 1 | Score how well your supply chain absorbs shocks. |
+| [Costing](cost/README.md) | 2 | Know the full cost: landed cost and total procurement cost. |
+| [Sustainability](sustainability/README.md) | 3 | Measure carbon, energy, and the cost of returns. |
 | [Supplier & Procurement](supplier/README.md) | 30 | Pick suppliers, score them, and keep them honest. |
 
 ## On the way
 
 These modules are being written right now and will land here as they finish:
 
-- Costing (2 algorithms)
-- Sustainability (3 algorithms)
 - Contracts (3 algorithms)
 - Warehouse (10 algorithms)
 - MRP & Production Planning (30 algorithms)
