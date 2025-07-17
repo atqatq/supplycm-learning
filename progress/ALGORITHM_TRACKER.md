@@ -112,6 +112,12 @@ Mark a box **only** when you can do all three:
 - [ ] [Warehouse Energy Consumption](../algorithms/sustainability/energy_consumption_warehouse.md)
 - [ ] [Reverse Logistics Cost](../algorithms/sustainability/reverse_logistics_cost.md)
 
+## Contracts (3)
+
+- [ ] [Revenue Sharing Contract](../algorithms/contracts/revenue_sharing_contract.md)
+- [ ] [Buyback Contract](../algorithms/contracts/buyback_contract.md)
+- [ ] [Quantity Flexibility Contract](../algorithms/contracts/quantity_flexibility_contract.md)
+
 ## Supplier & Procurement (30)
 
 - [ ] [Weighted Point Method](../algorithms/supplier/weighted_point_method.md)
