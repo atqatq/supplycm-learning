@@ -150,3 +150,16 @@ Mark a box **only** when you can do all three:
 - [ ] [ELECTRE](../algorithms/supplier/electre.md)
 - [ ] [Data Envelopment Analysis (DEA)](../algorithms/supplier/data_envelopment_analysis.md)
 - [ ] [Strategic Supplier Scorecard](../algorithms/supplier/strategic_supplier_scorecard.md)
+
+## Warehouse (10)
+
+- [ ] [Warehouse Slotting (ABC)](../algorithms/warehouse/warehouse_slotting_abc.md)
+- [ ] [Warehouse Layout Optimization](../algorithms/warehouse/warehouse_layout_optimization.md)
+- [ ] [Putaway Strategy](../algorithms/warehouse/putaway_strategy.md)
+- [ ] [Order Picking Wave Planning](../algorithms/warehouse/order_picking_wave.md)
+- [ ] [S-Shape (Serpentine) Picking Route](../algorithms/warehouse/s_shape_routing.md)
+- [ ] [Return (Back-and-Forth) Routing](../algorithms/warehouse/return_routing.md)
+- [ ] [TSP-Based Picking](../algorithms/warehouse/traveling_salesman_picking.md)
+- [ ] [Pallet Building](../algorithms/warehouse/pallet_building.md)
+- [ ] [Dock Door Assignment](../algorithms/warehouse/dock_door_assignment.md)
+- [ ] [Cross-Dock Scheduling](../algorithms/warehouse/cross_dock_scheduling.md)
