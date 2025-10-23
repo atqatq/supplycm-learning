@@ -1,46 +1,71 @@
 ---
-title: "12-Week Learning Plan (Draft) | supplycm Learning"
-description: "Draft learning plan for the supplycm course: 12 weeks from basics to a complete example. Work in progress - will expand into a full program."
-keywords: "learning plan, supply chain course, schedule, draft"
+title: "The 6-Month Program (Draft) | supplycm Learning"
+description: "Draft of the full 6-month supply chain program: 26 weeks from beginner to capable professional. Expanding on the 12-week plan with monthly phases and checkpoints."
+keywords: "6 month plan, supply chain program, schedule, draft, learning path"
 ---
 
-# The 12-Week Learning Plan (DRAFT)
+# The 6-Month Program (DRAFT)
 
-> This is an early draft. The final program will grow out of this - expect it to
-> become longer, with checkpoints, drills, and a proper weekly rhythm. If you
-> follow it today, you will still learn the essentials in the right order.
+> This expands the original [12-week plan](SIX_MONTH_PLAN.md) into a full
+> six-month program. It is still a draft: the weekly details and checkpoints
+> will be finalized as the algorithm library completes. Feedback welcome in
+> [Discussions](https://github.com/atqatq/supplycm-learning/discussions).
 
-**Time budget: 4-6 hours per week.** Read, run the code, take the quiz, apply it
-to a real (or realistic) small business you care about.
+**Why six months?** Because retention needs rhythm. Twelve weeks teaches concepts;
+six months - with recall, drills, and application - builds professional capability.
+Time budget: **5 hours per week**, including a daily 15-minute flashcard ritual.
 
-| Week | Focus | Materials |
-|------|-------|-----------|
-| 1 | What is a supply chain? | [Module 1](modules/01_what_is_supply_chain.md) + [Quiz 1](quizzes/quiz_01_basics.md) |
-| 2 | Forecasting basics: naive and moving averages | [Module 2](modules/02_forecasting.md) + [Exercise 2](exercises/exercise_02_forecasting.md) |
-| 3 | Forecast accuracy: MAPE and friends | Module 2 (accuracy section) + [Quiz 2](quizzes/quiz_02_forecasting.md) |
-| 4 | Inventory: EOQ and reorder points | [Module 3](modules/03_inventory.md) + [Exercise 3](exercises/exercise_03_inventory.md) |
-| 5 | Inventory: safety stock and ABC | Module 3 + [Quiz 3](quizzes/quiz_03_inventory.md) |
-| 6 | Suppliers: scorecards and selection | [Module 4](modules/04_suppliers.md) + [Quiz 4](quizzes/quiz_04_suppliers.md) |
-| 7 | Warehouses: slotting and picking | [Module 5](modules/05_warehouses.md) + [Quiz 5](quizzes/quiz_05_warehouses.md) |
-| 8 | Transportation: TSP and VRP | [Module 6](modules/06_transportation.md) + [Quiz 6](quizzes/quiz_06_transportation.md) |
-| 9 | Quality: Six Sigma metrics | [Module 7](modules/07_quality.md) + [Quiz 7](quizzes/quiz_07_quality.md) |
-| 10 | Lean: takt, OEE, Little's Law | [Module 8](modules/08_lean.md) + [Quiz 8](quizzes/quiz_08_lean.md) |
-| 11 | S&OP and contracts | [Modules 9-10](modules/09_planning.md) + [Quizzes 9-10](quizzes/quiz_09_sop.md) |
-| 12 | Sustainability + the complete example | [Modules 11-12](modules/12_putting_it_together.md) + [Final Quiz](quizzes/quiz_12_final.md) |
+## The four moves of every week
 
-## How to study each week
+1. **Learn** - the core lesson and its library pages (2 h)
+2. **Practice** - run the code, do the exercise (1.5 h)
+3. **Recall** - flashcards and quizzes from memory (1 h)
+4. **Apply** - use it on your chosen case business (0.5 h)
 
-1. Read the module lesson (30-60 min).
-2. Run the notebook examples - change one number, re-run, watch what changes (45 min).
-3. Do the week's exercise (60-90 min).
-4. Take the quiz. Below 70%? Re-read and retake (30 min).
-5. Write one paragraph: "how would I use this in a real business?" (15 min)
+## The six monthly phases
 
-## Coming in the full version
+### Month 1 - Foundations
+What a supply chain is, first forecasts, first accuracy metrics, EOQ and reorder points.
+- Modules 1-3 + the Statistics basics pages + Forecasting basics pages
+- Checkpoint: explain forecasting accuracy and EOQ+ROP to a friend
 
-- Per-algorithm lessons for the whole supplycm package (in progress)
-- Flashcard decks for spaced repetition
-- Recall drills with answer keys
-- A progress tracker
+### Month 2 - Forecasting in the wild
+Smoothing engines (SES, Holt, Holt-Winters), seasonality and decomposition,
+intermittent demand (Croston family), honest intervals.
+- Forecasting library (deep) + Demand library + Statistics error metrics
+- Checkpoint: a forecast file with method, metrics, and an honest range
 
-Watch this space.
+### Month 3 - Inventory mastery and purchasing
+Policies ((R,Q), (s,S), periodic), newsvendor decisions, inventory metrics and
+valuation, risk pooling and the bullwhip, supplier selection with evidence.
+- Inventory library + Supplier library (selection) + Costing
+- Checkpoint: item policies, a newsvendor decision, an inventory health report
+
+### Month 4 - The planning engine
+MRP mechanics, MPS and ATP, time fences, capacity checks, S&OP strategies,
+scheduling rules, lean metrics, Six Sigma scoreboard.
+- MRP library + S&OP + Scheduling + Lean + Quality
+- Checkpoint: plans, promises, and measurements for your case business
+
+### Month 5 - Moving goods
+TSP methods, VRP family, network algorithms, warehouse slotting and picking,
+network design and siting.
+- Routing + Network + Warehouse + Network Design libraries
+- Checkpoint: routes, a network map with its weak point, a warehouse layout
+
+### Month 6 - Modern edges and capstone
+Optimization classics, IoT and traceability, simulation, contracts, risk,
+sustainability - then the capstone: assemble six months of case-study work
+into one complete project and take the final exam.
+- Optimization + IoT + Blockchain + Simulation + Contracts + Risk + Sustainability
+- Checkpoint: GRADUATION - a complete portfolio project + 85% on the final quiz
+
+## What is still being built
+
+- The full per-algorithm library pages referenced above (modules land weekly)
+- The flashcard decks and recall drills per module
+- The final checkpoint rubrics
+
+The original 12-week sprint (the previous version of this file) remains a
+good option if you want the fast path; this program is the thorough path.
+Both use the same materials.
