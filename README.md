@@ -38,9 +38,9 @@ A collection of easy-to-follow lessons that explain supply chain ideas in plain 
 ## The Algorithm Library
 
 We are writing a plain-English page for EVERY algorithm in the
-[supplycm package](https://github.com/atqatq/supplycm). Over 200 pages are
-already done: the full forecasting toolbox, the complete inventory library,
-supplier analytics, MRP, scheduling, quality, lean, S&OP, and more. Each page
+[supplycm package](https://github.com/atqatq/supplycm). Over 290 pages are
+done - forecasting, the inventory toolbox, MRP, and scheduling are complete,
+and the network, routing, and optimization libraries are landing now. Each page
 has a runnable example, three self-check questions, and a challenge.
 
 Browse the library: [algorithms/](algorithms/README.md) - track your progress
