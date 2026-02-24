@@ -60,6 +60,18 @@ A collection of easy-to-follow lessons that explain supply chain ideas in plain 
 - Basic Python knowledge (variables, lists, functions)
 - The supplycm package: `pip install supplycm`
 
+## The Algorithm Library
+
+We are writing a plain-English page for EVERY algorithm in the
+[supplycm package](https://github.com/atqatq/supplycm). Over 290 pages are
+done - forecasting, the inventory toolbox, MRP, and scheduling are complete,
+and the network, routing, and optimization libraries are landing now. Each page
+has a runnable example, three self-check questions, and a challenge.
+
+Browse the library: [algorithms/](algorithms/README.md) - track your progress
+with the [tracker](progress/ALGORITHM_TRACKER.md). A full six-month guided
+program is taking shape in [SIX_MONTH_PLAN.md](SIX_MONTH_PLAN.md).
+
 ## Quick Start
 
 ```bash
