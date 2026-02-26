@@ -8,7 +8,7 @@ keywords: "supplycm, algorithm library, supply chain, plain english"
 
 Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm), explained in simple English with a runnable example and built-in self-testing. No math beyond +, -, ×, ÷.
 
-**Coverage so far: 294 of 396 algorithms across 16 of 22 modules.**
+**Coverage so far: 323 of 396 algorithms across 17 of 22 modules.**
 
 ## Available modules
 
@@ -30,12 +30,12 @@ Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm), e
 | [Inventory](inventory/README.md) | 60 | How much to buy, when to buy, and how much buffer to keep. |
 | [Forecasting](forecasting/README.md) | 50 | Predict next week's, next month's, next quarter's demand. |
 | [Scheduling](scheduling/README.md) | 40 | Decide the order of jobs so everything finishes on time. |
+| [Networks](network/README.md) | 29 | Find paths, hubs, and weak points in a network of places. |
 
 ## On the way
 
 These modules are being written right now and will land here as they finish:
 
-- Networks (29 algorithms)
 - Network Design (5 algorithms)
 - Routing & Transportation (30 algorithms)
 - Optimization (30 algorithms)
