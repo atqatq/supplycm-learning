@@ -387,3 +387,11 @@ Mark a box **only** when you can do all three:
 - [ ] [Stoer-Wagner Global Min Cut](../algorithms/network/min_cut_stoer_wagner.md)
 - [ ] [Min-Cost Flow (Cycle Canceling)](../algorithms/network/min_cost_flow_cycle_canceling.md)
 - [ ] [Successive Shortest Path (Min-Cost Flow)](../algorithms/network/successive_shortest_path.md)
+
+## Network Design (5)
+
+- [ ] [Break-Even Analysis](../algorithms/network_design/break_even_analysis.md)
+- [ ] [Center of Gravity Location](../algorithms/network_design/center_of_gravity.md)
+- [ ] [Facility Location (Fixed Cost)](../algorithms/network_design/facility_location_fixed_cost.md)
+- [ ] [Network Reliability](../algorithms/network_design/network_reliability.md)
+- [ ] [Single-Source Allocation](../algorithms/network_design/single_source_allocation.md)
