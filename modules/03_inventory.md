@@ -24,27 +24,27 @@ The formula balances two costs:
 
 If you order a lot at once, you pay less in ordering but more in holding. If you order a little at a time, you pay less in holding but more in ordering. EOQ finds the sweet spot.
 
-### The Formula
+### The Formula in Python Notation
 
-```
-EOQ = square root of (2 x D x S / H)
+```python
+eoq = (2 * annual_demand * ordering_cost / holding_cost) ** 0.5
 ```
 
 Where:
-- D = demand per year (how many you sell)
-- S = ordering cost (per order)
-- H = holding cost (per unit per year)
+- `annual_demand` = how many you sell per year
+- `ordering_cost` = cost per order
+- `holding_cost` = cost to store one unit for one year
 
 ### Try it with supplycm
 
 ```python
 from supplycm.inventory import economic_order_quantity
 
-# You sell 12000 toys per year
-# Each order costs $100 to place
-# Each toy costs $5 per year to store
+annual_demand = 12000   # toys per year
+ordering_cost = 100     # dollars per order
+holding_cost = 5        # dollars per unit per year
 
-eoq = economic_order_quantity(demand=12000, ordering_cost=100, holding_cost=5)
+eoq = economic_order_quantity(annual_demand, ordering_cost, holding_cost)
 print(f"Order {eoq:.0f} toys each time")
 # Output: Order 693 toys each time
 ```
@@ -55,38 +55,39 @@ What if demand is higher than expected? What if the supplier is late?
 
 Safety stock is extra inventory to protect you from surprises.
 
-### The Formula
+### The Formula in Python Notation
 
-```
-Safety Stock = Z x sigma x square root of L
+```python
+import math
+safety_stock = z_score * demand_std * (lead_time ** 0.5)
 ```
 
 Where:
-- Z = service level (how sure you want to be). 1.96 means 97.5% sure
-- sigma = how much demand varies (standard deviation)
-- L = lead time (how long it takes to get new stock)
+- `z_score` = service level (how sure you want to be). 1.96 means 97.5% sure
+- `demand_std` = how much demand varies (standard deviation)
+- `lead_time` = how long it takes to get new stock
 
 ### Try it with supplycm
 
 ```python
 from supplycm.inventory import safety_stock_normal
 
-# Demand varies by 30 units per week
-# Lead time is 2 weeks
-# You want 97.5% service level (Z = 1.96)
+demand_std = 30       # demand varies by 30 units per week
+lead_time = 2         # supplier takes 2 weeks to deliver
+z_score = 1.96        # 97.5% service level
 
-ss = safety_stock_normal(z_score=1.96, demand_std=30, lead_time=2)
-print(f"Keep {ss:.0f} units as safety stock")
+safety = safety_stock_normal(z_score, demand_std, lead_time)
+print(f"Keep {safety:.0f} units as safety stock")
 ```
 
 ## Reorder Point: When to Order More
 
 The reorder point is the inventory level that tells you "time to order more."
 
-### The Formula
+### The Formula in Python Notation
 
-```
-Reorder Point = (demand per week x lead time in weeks) + safety stock
+```python
+reorder_point = (demand_per_week * lead_time) + safety_stock
 ```
 
 ### Try it with supplycm
@@ -95,7 +96,7 @@ Reorder Point = (demand per week x lead time in weeks) + safety stock
 from supplycm.inventory import reorder_point, safety_stock_normal
 
 demand_per_week = 250  # you sell 250 per week
-lead_time = 2  # supplier takes 2 weeks to deliver
+lead_time = 2          # supplier takes 2 weeks to deliver
 safety = safety_stock_normal(1.96, 30, 2)
 
 rop = reorder_point(demand_per_week, lead_time, safety)
@@ -135,7 +136,7 @@ for product, group, cumulative in result:
 
 1. What does EOQ stand for?
 2. Why do we need safety stock?
-3. If you sell 1000 units per year, ordering cost is $50, and holding cost is $2, what is the EOQ?
+3. If `annual_demand = 1000`, `ordering_cost = 50`, and `holding_cost = 2`, what is `eoq`?
 4. In ABC analysis, which class should you watch most closely?
 
 <details>
@@ -143,7 +144,7 @@ for product, group, cumulative in result:
 
 1. Economic Order Quantity
 2. To protect against demand surprises and late deliveries
-3. EOQ = square root of (2 x 1000 x 50 / 2) = square root of 50000 = about 224 units
+3. `eoq = (2 * 1000 * 50 / 2) ** 0.5` = `50000 ** 0.5` = about 224 units
 4. Class A (top 20% of products make 80% of sales)
 
 </details>
@@ -152,11 +153,11 @@ for product, group, cumulative in result:
 
 You run a cookie shop.
 
-1. You sell 20000 cookies per year
-2. Each order costs $20 to place
-3. Each cookie costs $0.50 per year to store
-4. Demand varies by 50 cookies per week
-5. Your supplier takes 1 week to deliver
+1. `annual_demand = 20000` cookies
+2. `ordering_cost = 20` dollars per order
+3. `holding_cost = 0.50` dollars per cookie per year
+4. `demand_std = 50` cookies per week
+5. `lead_time = 1` week
 
 Calculate:
 - The EOQ (how many cookies to order each time)
