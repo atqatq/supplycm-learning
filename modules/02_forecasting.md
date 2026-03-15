@@ -23,6 +23,12 @@ The easiest forecast says: "Tomorrow will be the same as today."
 
 If you sold 50 cakes today, predict 50 for tomorrow.
 
+In Python terms:
+
+```python
+forecast_tomorrow = sales_today
+```
+
 ### Try it with supplycm
 
 ```python
@@ -41,7 +47,12 @@ The first value is `None` because we do not have a previous day to copy from.
 
 Instead of just copying yesterday, average the last few days.
 
-If you sold 40, 45, and 42 in the last 3 days, the average is (40 + 45 + 42) / 3 = 42.3.
+If you sold 40, 45, and 42 in the last 3 days:
+
+```python
+forecast = sum(last_3_days) / 3
+# (40 + 45 + 42) / 3 = 42.33
+```
 
 ### Try it with supplycm
 
@@ -61,6 +72,14 @@ The first two are `None` because we need 3 days to make an average.
 This method says: "Recent days matter more than old days."
 
 It is like a moving average, but yesterday counts more than last week.
+
+In Python terms:
+
+```python
+forecast_today = alpha * sales_yesterday + (1 - alpha) * forecast_yesterday
+```
+
+Where `alpha` is a number between 0 and 1 that controls how much weight to give recent days. Higher `alpha` means care more about recent days.
 
 ### Try it with supplycm
 
@@ -101,6 +120,13 @@ You need to check if your forecast is close to reality. The most common way is M
 
 MAPE tells you, on average, how far off your forecast was as a percentage.
 
+In Python terms:
+
+```python
+error = abs(actual - forecast) / actual
+mape = sum(all_errors) / count * 100
+```
+
 ### Try it with supplycm
 
 ```python
@@ -119,14 +145,14 @@ print(f"Your forecast is off by {error:.1f}% on average")
 
 ## Quick Quiz
 
-1. If you sold 30, 35, 32 yesterday, today, and the day before, what is the 3-day moving average?
+1. If you sold 30, 35, 32 over 3 days, what is the 3-day moving average?
 2. Why would you use exponential smoothing instead of a moving average?
 3. What does MAPE stand for?
 
 <details>
 <summary>Click to reveal answers</summary>
 
-1. (30 + 35 + 32) / 3 = 32.3
+1. `sum([30, 35, 32]) / 3` = `97 / 3` = 32.3
 2. Because recent data is more important than old data
 3. Mean Absolute Percentage Error
 
