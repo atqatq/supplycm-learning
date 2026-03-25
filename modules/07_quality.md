@@ -21,10 +21,10 @@ Most companies operate at 3 Sigma (about 66,800 defects per million). Reaching S
 
 DPMO stands for Defects Per Million Opportunities.
 
-### The Formula
+### The Formula in Python Notation
 
-```
-DPMO = (number of defects / (units produced x opportunities per unit)) x 1,000,000
+```python
+dpmo = (defects / (units * opportunities_per_unit)) * 1_000_000
 ```
 
 ### Try it with supplycm
@@ -32,11 +32,11 @@ DPMO = (number of defects / (units produced x opportunities per unit)) x 1,000,0
 ```python
 from supplycm.quality import dpmo, sigma_level
 
-# You made 1000 toys
-# Each toy has 10 ways to be defective (opportunities)
-# You found 50 defects
+units = 1000           # toys made
+opportunities = 10     # ways each toy can be defective
+defects = 50           # defects found
 
-dpmo_value = dpmo(defects=50, units=1000, opportunities_per_unit=10)
+dpmo_value = dpmo(defects, units, opportunities)
 sigma = sigma_level(dpmo_value)
 
 print(f"DPMO: {dpmo_value}")
@@ -63,13 +63,13 @@ samples = [
     [10.3, 10.1, 10.0],  # run 3
 ]
 
-means, ucl, lcl = x_bar_chart(samples)
+means, upper_limit, lower_limit = x_bar_chart(samples)
 print(f"Average of each run: {means}")
-print(f"Upper control limit: {ucl:.2f}")
-print(f"Lower control limit: {lcl:.2f}")
+print(f"Upper control limit: {upper_limit:.2f}")
+print(f"Lower control limit: {lower_limit:.2f}")
 ```
 
-If any average goes above UCL or below LCL, your process is out of control.
+If any average goes above the upper limit or below the lower limit, your process is out of control.
 
 ## Process Capability: Can You Meet Specs?
 
@@ -77,38 +77,50 @@ Your customer wants products within a certain range (specification limits). Can 
 
 ### Cp: Potential Capability
 
-```
-Cp = (USL - LSL) / (6 x sigma)
+In Python notation:
+
+```python
+cp = (upper_spec - lower_spec) / (6 * std_dev)
 ```
 
 Where:
-- USL = Upper Specification Limit
-- LSL = Lower Specification Limit
-- sigma = your process standard deviation
+- `upper_spec` = Upper Specification Limit
+- `lower_spec` = Lower Specification Limit
+- `std_dev` = your process standard deviation
 
 ### Cpk: Actual Capability
 
 Cpk considers whether your process is centered between the limits.
+
+In Python notation:
+
+```python
+cp_upper = (upper_spec - mean) / (3 * std_dev)
+cp_lower = (mean - lower_spec) / (3 * std_dev)
+cpk = min(cp_upper, cp_lower)
+```
 
 ### Try it with supplycm
 
 ```python
 from supplycm.quality import process_capability_cp, process_capability_cpk
 
-# Customer wants products between 8 and 12
-# Your process averages 10 with std dev 0.5
+upper_spec = 12    # customer wants max 12
+lower_spec = 8     # customer wants min 8
+mean = 10          # your process averages 10
+std_dev = 0.5      # your process std dev
 
-cp = process_capability_cp(upper_spec=12, lower_spec=8, std_dev=0.5)
-cpk = process_capability_cpk(upper_spec=12, lower_spec=8, mean=10, std_dev=0.5)
+cp = process_capability_cp(upper_spec, lower_spec, std_dev)
+cpk = process_capability_cpk(upper_spec, lower_spec, mean, std_dev)
 
 print(f"Cp: {cp:.2f} (potential)")
 print(f"Cpk: {cpk:.2f} (actual)")
 ```
 
 **Interpretation:**
-- Cp or Cpk >= 1.33: Process is capable
-- 1.0 to 1.33: Marginally capable
-- Below 1.0: Not capable
+- `cp` or `cpk >= 1.33`: Process is capable
+- `1.0` to `1.33`: Marginally capable
+- Below `1.0`: Not capable
 
 ## The DMAIC Process
 
@@ -141,9 +153,9 @@ Six Sigma uses DMAIC to improve processes:
 
 You run a cookie factory.
 
-1. You bake 5000 cookies per day
-2. Each cookie has 5 things that could go wrong (opportunities)
-3. You find 100 defective cookies per day
+1. `units = 5000` cookies per day
+2. `opportunities = 5` things that could go wrong per cookie
+3. `defects = 100` defective cookies per day
 
 Calculate:
 - The DPMO
