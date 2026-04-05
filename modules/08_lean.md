@@ -25,18 +25,21 @@ Lean identifies 8 types of waste. Remember them with DOWNTIME:
 
 Takt time is the rhythm at which you need to produce to meet customer demand.
 
-### The Formula
+### The Formula in Python Notation
 
-```
-Takt Time = Available Time / Customer Demand
+```python
+takt_time = available_time / customer_demand
 ```
 
 ### Example
 
 If you have 480 minutes available and customers want 240 units per day:
 
-```
-Takt = 480 / 240 = 2 minutes per unit
+```python
+available_time = 480
+customer_demand = 240
+takt_time = available_time / customer_demand
+# takt_time = 2.0 minutes per unit
 ```
 
 You need to produce one unit every 2 minutes.
@@ -58,20 +61,21 @@ OEE measures how well your equipment is used. It combines three things:
 2. **Performance**: How fast it runs compared to ideal
 3. **Quality**: How many good products it makes
 
-### The Formula
+### The Formula in Python Notation
 
-```
-OEE = Availability x Performance x Quality
+```python
+oee = availability * performance * quality
 ```
 
 ### Example
 
-- Availability: 85% (running 85% of scheduled time)
-- Performance: 90% (running at 90% of max speed)
-- Quality: 95% (95% of products are good)
+```python
+availability = 0.85   # running 85% of scheduled time
+performance = 0.90   # running at 90% of max speed
+quality = 0.95        # 95% of products are good
 
-```
-OEE = 0.85 x 0.90 x 0.95 = 0.727 = 72.7%
+oee = availability * performance * quality
+# oee = 0.727 = 72.7%
 ```
 
 ### Try it with supplycm
@@ -89,16 +93,22 @@ print(f"OEE: {result*100:.1f}%")
 
 Little's Law is a simple but powerful relationship:
 
-```
-Work In Progress = Throughput Rate x Flow Time
+### The Formula in Python Notation
+
+```python
+work_in_progress = throughput_rate * flow_time
 ```
 
 ### Example
 
 If you produce 10 units per hour and each takes 5 hours to make:
 
-```
-WIP = 10 x 5 = 50 units in progress
+```python
+throughput_rate = 10  # units per hour
+flow_time = 5          # hours per unit
+
+wip = throughput_rate * flow_time
+# wip = 50 units in progress
 ```
 
 ### Try it with supplycm
@@ -114,18 +124,22 @@ print(f"WIP: {wip} units")
 
 Cycle time efficiency measures how much of your total time is actually adding value.
 
-### The Formula
+### The Formula in Python Notation
 
-```
-Efficiency = Value-Added Time / Total Cycle Time
+```python
+efficiency = value_added_time / total_cycle_time
 ```
 
 ### Example
 
 If a product takes 50 hours from start to finish, but only 5 hours of that is actual work:
 
-```
-Efficiency = 5 / 50 = 10%
+```python
+value_added_time = 5
+total_cycle_time = 50
+
+efficiency = value_added_time / total_cycle_time
+# efficiency = 0.10 = 10%
 ```
 
 Most processes are less than 10% efficient. There is a lot of room for improvement.
@@ -152,7 +166,7 @@ print(f"Efficiency: {efficiency*100:.0f}%")
 ## Quick Quiz
 
 1. What does DOWNTIME stand for?
-2. If you have 360 minutes and need 180 units, what is the takt time?
+2. If `available_time = 360` and `customer_demand = 180`, what is `takt_time`?
 3. What is the formula for OEE?
 4. What does Little's Law say?
 5. What are the 5 S's?
@@ -161,9 +175,9 @@ print(f"Efficiency: {efficiency*100:.0f}%")
 <summary>Click to reveal answers</summary>
 
 1. Defects, Overproduction, Waiting, Non-utilized talent, Transportation, Inventory, Motion, Excess processing
-2. 2 minutes per unit
-3. OEE = Availability x Performance x Quality
-4. WIP = Throughput x Flow Time
+2. `takt_time = 360 / 180` = 2 minutes per unit
+3. `oee = availability * performance * quality`
+4. `work_in_progress = throughput_rate * flow_time`
 5. Sort, Set in order, Shine, Standardize, Sustain
 
 </details>
@@ -172,11 +186,11 @@ print(f"Efficiency: {efficiency*100:.0f}%")
 
 You run a small factory.
 
-1. You work 7 hours per day (420 minutes)
-2. Customers want 140 products per day
-3. Your machine is available 80% of the time
-4. It runs at 90% of max speed
-5. 95% of products are good quality
+1. `available_time = 420` minutes (7 hours)
+2. `customer_demand = 140` products per day
+3. `availability = 0.80`
+4. `performance = 0.90`
+5. `quality = 0.95`
 6. Each product takes 3 hours to make, but only 30 minutes is actual work
 
 Calculate:
