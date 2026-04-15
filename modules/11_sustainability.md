@@ -15,19 +15,26 @@ Sustainability means meeting today's needs without hurting future generations. I
 
 Your carbon footprint is how much CO2 your operations produce. Transportation is a big contributor.
 
-### The Formula
+### The Formula in Python Notation
 
+```python
+co2_emissions = distance * weight * emission_factor
 ```
-CO2 = distance x weight x emission factor
-```
+
+Where:
+- `distance` = how far the truck travels (km)
+- `weight` = how heavy the load is (tonnes)
+- `emission_factor` = CO2 per tonne-km (depends on transport mode)
 
 ### Try it with supplycm
 
 ```python
 from supplycm.sustainability import carbon_footprint_transport
 
-# Truck travels 500 km with 10 tonnes of goods
-co2 = carbon_footprint_transport(distance=500, weight=10)
+distance = 500   # km
+weight = 10      # tonnes
+
+co2 = carbon_footprint_transport(distance, weight)
 print(f"CO2 emissions: {co2} kg")
 ```
 
@@ -60,17 +67,14 @@ Reverse logistics moves products backward: customer back to factory.
 ```python
 from supplycm.sustainability import reverse_logistics_cost
 
-# 10% of products are returned
-# Each return costs $5 to process
-# Some can be resold for $30
+return_rate = 0.10       # 10% of products returned
+unit_cost = 100          # original cost
+processing_cost = 5      # cost to process each return
+disposal_cost = 2        # cost to dispose
+resale_value = 30        # revenue from reselling
 
-cost = reverse_logistics_cost(
-    return_rate=0.1,
-    unit_cost=100,
-    processing_cost=5,
-    disposal_cost=2,
-    resale_value=30
-)
+cost = reverse_logistics_cost(return_rate, unit_cost, processing_cost,
+                               disposal_cost, resale_value)
 print(f"Net cost per unit sold: ${cost:.2f}")
 ```
 
@@ -83,12 +87,11 @@ Warehouses use a lot of energy for lighting, heating, and cooling.
 ```python
 from supplycm.sustainability import energy_consumption_warehouse
 
-# 10000 sqm warehouse, operating 24/7
-energy = energy_consumption_warehouse(
-    floor_area=10000,
-    hours_per_day=24,
-    days_per_year=365
-)
+floor_area = 10000    # square meters
+hours_per_day = 24
+days_per_year = 365
+
+energy = energy_consumption_warehouse(floor_area, hours_per_day, days_per_year)
 print(f"Annual energy: {energy} kWh")
 ```
 
@@ -131,7 +134,7 @@ Buy from nearby suppliers to reduce transport distance.
 <details>
 <summary>Click to reveal answers</summary>
 
-1. CO2 = distance x weight x emission factor
+1. `co2_emissions = distance * weight * emission_factor`
 2. Air transport (about 0.6 kg CO2 per tonne-km)
 3. Moving products from customer back to supplier (returns, recycling, repairs)
 4. Reduce, Reuse, Recycle
