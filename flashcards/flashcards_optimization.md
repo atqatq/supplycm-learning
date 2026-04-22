@@ -1,0 +1,45 @@
+---
+title: "Flashcards: Optimization | supplycm Learning"
+description: "Spaced-repetition flashcards for all 30 supplycm optimization algorithms."
+keywords: "flashcards, optimization, supply chain, recall"
+---
+
+# Flashcards: Optimization
+
+30 cards. Cover the answer column, say your answer out loud, then check.
+Shuffle the deck once you know the order. Revisit after 1 day, 3 days, 1 week, 1 month.
+
+| # | Prompt | Answer |
+|---|--------|--------|
+| 1 | What does `binary_search` do? | Binary Search: Find an item in a SORTED list by halving: check the middle, discard half, repeat. |
+| 2 | What does `heap_sort` do? | Heap Sort: Sort by tournament: arrange items in a 'heap' where the biggest always sits on top, repeatedly pluck the winner, and rebuild. |
+| 3 | What does `merge_sort` do? | Merge Sort: Divide and conquer refined: split the list in half, sort each half, then ZIP the sorted halves together with a merge pass. |
+| 4 | What does `quick_sort` do? | Quick Sort: Pick a pivot, split items into smaller and larger, sort the two sides, repeat. |
+| 5 | What does `fractional_knapsack` do? | Fractional Knapsack: Fill a limited capacity with the best value: take items by value density (value per kilo), best first, and allow FRACTIONS of the last item that doesn't quite fit. |
+| 6 | What does `knapsack_01_dp` do? | 0-1 Knapsack (Dynamic Programming): The indivisible version: each item is taken fully or not at all, and greedy density famously fails. |
+| 7 | What does `subset_sum` do? | Subset Sum: Is there a subset of these numbers that adds up EXACTLY to the target? Deceptively simple, famously hard in general - and solvable by dynamic programming when numbers are reasonable. |
+| 8 | What does `edit_distance` do? | Edit Distance: How many single-letter edits (insert, delete, replace) turn one word into another? 'kitten' to 'sitting' takes 3. |
+| 9 | What does `longest_increasing_subsequence` do? | Longest Increasing Subsequence: The longest run (not necessarily adjacent) of values that keep rising through a sequence. |
+| 10 | What does `dynamic_programming_lcs` do? | Longest Common Subsequence: The longest pattern two sequences SHARE in order (gaps allowed): 'ABCBDAB' and 'BDCABA' share 'BDAB'. |
+| 11 | What does `matrix_chain_multiplication` do? | Matrix Chain Multiplication: Multiplying a chain of matrices, the GROUPING changes the cost wildly: (AB)C can be cheap where A(BC) is expensive. |
+| 12 | What does `convex_hull` do? | Convex Hull: Stretch a rubber band around all your points: the band's shape is the convex hull - the tightest boundary containing everything. |
+| 13 | What does `graph_coloring_greedy` do? | Graph Coloring (Greedy): Assign 'colors' so no two connected nodes share one: exam timetables (no student sits two exams at once), shift assignments, channel allocation. |
+| 14 | What does `n_queens_backtracking` do? | N-Queens Backtracking: Place N chess queens where none attacks another. |
+| 15 | What does `ant_colony_optimization` do? | Ant Colony Optimization (ACO): Digital ants lay pheromone on routes they walk; better (shorter) routes get walked more, reinforced more, and eventually the colony converges on strong paths. |
+| 16 | What does `genetic_algorithm` do? | Genetic Algorithm (GA): Evolution as an algorithm: a population of candidate solutions breeds - the fittest become parents, children mix their traits (crossover) and mutate - and generations roll forward toward better answers. |
+| 17 | What does `particle_swarm_optimization` do? | Particle Swarm Optimization (PSO): A flock of candidate solutions flies through the search space: each particle remembers its personal best AND hears about the swarm's best, then blends momentum toward both. |
+| 18 | What does `simulated_annealing` do? | Simulated Annealing (SA): Accept better moves always; occasionally accept WORSE ones early (high temperature) so the search can escape traps, then cool down and grow conservative. |
+| 19 | What does `tabu_search` do? | Tabu Search: Local search with a memory: keep a short 'tabu list' of recent moves and FORBID reversing them, forcing the search out of loops and through worse terrain to reach new regions. |
+| 20 | What does `branch_and_bound` do? | Branch and Bound: Exact optimization with pruning: split the problem into branches, and whenever a branch's best HOPED-FOR value can't beat what you've already found, abandon it without exploring. |
+| 21 | What does `golden_section_search` do? | Golden Section Search: Finding the lowest point of a curve WITHOUT derivatives: probe two interior points of a range, keep the side holding the minimum, shrink, repeat. |
+| 22 | What does `gradient_descent` do? | Gradient Descent: Walk downhill: measure the slope (gradient) at your position, step the opposite way, repeat. |
+| 23 | What does `newton_raphson` do? | Newton-Raphson: Finding where a function crosses zero, using curvature: jump to where the tangent line hits zero, repeat. |
+| 24 | What does `lagrange_multiplier` do? | Lagrange Multiplier: Optimize a goal while respecting a constraint - by pricing the constraint. |
+| 25 | What does `simplex_method` do? | Simplex Method (Linear Programming): The grandfather of optimization: maximize a linear objective under linear constraints by walking along the feasible region's CORNERS, each step improving, until no corner is better. |
+| 26 | What does `p_median` do? | P-Median Facility Location: Choose exactly p facility locations among candidates to minimize total weighted DISTANCE to demand. |
+| 27 | What does `bin_packing_first_fit` do? | Bin Packing: First Fit: Pack items into the fewest capacity-limited bins: place each item into the FIRST bin with room, open a new bin only when nothing fits. |
+| 28 | What does `bin_packing_best_fit` do? | Bin Packing: Best Fit: First fit's tidy sibling: place each item into the bin it fits MOST SNUGLY - the smallest remaining space that still holds it - preserving big gaps for future big items. |
+| 29 | What does `bin_packing_first_fit_decreasing` do? | Bin Packing: First Fit Decreasing (FFD): The famously effective upgrade: SORT items biggest-first, then apply first fit. |
+| 30 | What does `set_cover_greedy` do? | Set Cover (Greedy): Cover every requirement with the fewest facilities/warehouses/skills: repeatedly pick the option covering the most UNCOVERED requirements so far. |
+
+Want more depth? Re-run the "Check yourself" questions on each lesson page.
