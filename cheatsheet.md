@@ -1,29 +1,42 @@
 # Supply Chain Cheat Sheet
 
-Quick reference for the most important formulas and concepts.
+Quick reference for the most important formulas and concepts. All formulas use Python notation.
 
 ## Forecasting
 
-| Method | Formula | When to Use |
-|--------|---------|-------------|
-| Naive | F(t+1) = X(t) | Simple baseline |
-| Moving Average | F = (X1 + X2 + ... + Xn) / n | Stable demand |
-| Exponential Smoothing | F(t+1) = alpha * X(t) + (1-alpha) * F(t) | Trending demand |
-| Holt-Winters | Complex (trend + seasonality) | Seasonal demand |
-| Croston's | Separate demand size and interval | Intermittent demand |
+| Method | Python Formula | When to Use |
+|--------|---------------|-------------|
+| Naive | `forecast = sales[-1]` | Simple baseline |
+| Moving Average | `forecast = sum(last_n) / n` | Stable demand |
+| Exponential Smoothing | `forecast = alpha * today + (1 - alpha) * yesterday` | Trending demand |
+| Holt-Winters | (complex, uses supplycm) | Seasonal demand |
+| Croston's | (uses supplycm) | Intermittent demand |
 
-**Accuracy:** MAPE = average of |Actual - Forecast| / |Actual| x 100
+**Accuracy (MAPE):**
+
+```python
+error = abs(actual - forecast) / actual
+mape = sum(all_errors) / count * 100
+```
 
 ## Inventory
 
-| Formula | Calculation |
-|---------|-------------|
-| EOQ | sqrt(2 * D * S / H) |
-| Safety Stock | Z * sigma * sqrt(L) |
-| Reorder Point | (d * L) + SS |
-| Fill Rate | 1 - E(shortage) / Q |
+```python
+# EOQ - Economic Order Quantity
+eoq = (2 * annual_demand * ordering_cost / holding_cost) ** 0.5
 
-**Z-scores:** 1.645 = 95% | 1.96 = 97.5% | 2.33 = 99%
+# Safety Stock
+import math
+safety_stock = z_score * demand_std * (lead_time ** 0.5)
+
+# Reorder Point
+reorder_point = (demand_per_week * lead_time) + safety_stock
+
+# Fill Rate
+fill_rate = 1 - expected_shortage / order_quantity
+```
+
+**Z-scores:** `1.645` = 95% | `1.96` = 97.5% | `2.33` = 99%
 
 **ABC Analysis:** A = 80% of value, B = 15%, C = 5%
 
@@ -51,21 +64,36 @@ Quick reference for the most important formulas and concepts.
 
 ## Quality
 
-| Metric | Formula | Target |
-|--------|---------|--------|
-| DPMO | (defects / (units * opportunities)) * 1M | 3.4 for Six Sigma |
-| Cp | (USL - LSL) / (6 * sigma) | >= 1.33 |
-| Cpk | min((USL-mean), (mean-LSL)) / (3*sigma) | >= 1.33 |
-| Sigma Level | From DPMO table | 6.0 for Six Sigma |
+```python
+# DPMO - Defects Per Million Opportunities
+dpmo = (defects / (units * opportunities)) * 1_000_000
+
+# Cp - Process Capability (potential)
+cp = (upper_spec - lower_spec) / (6 * std_dev)
+
+# Cpk - Process Capability (actual)
+cp_upper = (upper_spec - mean) / (3 * std_dev)
+cp_lower = (mean - lower_spec) / (3 * std_dev)
+cpk = min(cp_upper, cp_lower)
+```
+
+**Targets:** DPMO = 3.4 for Six Sigma | Cp/Cpk >= 1.33 for capable process
 
 ## Lean
 
-| Metric | Formula | Target |
-|--------|---------|--------|
-| Takt Time | Available Time / Demand | Match production pace |
-| OEE | Availability * Performance * Quality | >= 85% |
-| Cycle Efficiency | Value-Added / Total Time | >= 50% |
-| WIP (Little's Law) | Throughput * Flow Time | Minimize |
+```python
+# Takt Time
+takt_time = available_time / customer_demand
+
+# OEE - Overall Equipment Effectiveness
+oee = availability * performance * quality
+
+# Cycle Time Efficiency
+efficiency = value_added_time / total_cycle_time
+
+# WIP (Little's Law)
+work_in_progress = throughput_rate * flow_time
+```
 
 **8 Wastes (DOWNTIME):** Defects, Overproduction, Waiting, Non-utilized talent, Transportation, Inventory, Motion, Excess processing
 
@@ -86,10 +114,13 @@ Quick reference for the most important formulas and concepts.
 
 ## Sustainability
 
-| Formula | Calculation |
-|---------|-------------|
-| Carbon Footprint | distance * weight * emission factor |
-| Reverse Logistics Cost | return_rate * (processing + disposal - resale) |
+```python
+# Carbon Footprint
+co2_emissions = distance * weight * emission_factor
+
+# Reverse Logistics Cost
+cost = return_rate * (processing_cost + disposal_cost * (1 - resale_value / unit_cost))
+```
 
 **Emission Factors (kg CO2 per tonne-km):**
 - Air: 0.602
@@ -103,6 +134,6 @@ Quick reference for the most important formulas and concepts.
 - World-class OEE = 85%
 - Typical holding cost = 20-30% of item value per year
 - ABC split: 80/15/5
-- Z = 1.96 for 97.5% service level
-- Takt time = available time / demand
-- WIP = throughput * flow time (Little's Law)
+- `z_score = 1.96` for 97.5% service level
+- `takt_time = available_time / customer_demand`
+- `work_in_progress = throughput_rate * flow_time` (Little's Law)
