@@ -461,3 +461,10 @@ Mark a box **only** when you can do all three:
 - [ ] [Bin Packing: Best Fit](../algorithms/optimization/bin_packing_best_fit.md)
 - [ ] [Bin Packing: First Fit Decreasing (FFD)](../algorithms/optimization/bin_packing_first_fit_decreasing.md)
 - [ ] [Set Cover (Greedy)](../algorithms/optimization/set_cover_greedy.md)
+
+## IoT & Sensors (4)
+
+- [ ] [Sensor Data Smoothing](../algorithms/iot/sensor_data_smoothing.md)
+- [ ] [IoT Anomaly Detection](../algorithms/iot/anomaly_detection.md)
+- [ ] [Real-Time Inventory Monitor](../algorithms/iot/realtime_inventory_monitor.md)
+- [ ] [IoT Data Aggregation](../algorithms/iot/iot_data_aggregation.md)

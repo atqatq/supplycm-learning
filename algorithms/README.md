@@ -8,7 +8,7 @@ keywords: "supplycm, algorithm library, supply chain, plain english"
 
 Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm), explained in simple English with a runnable example and built-in self-testing. No math beyond +, -, ×, ÷.
 
-**Coverage so far: 388 of 396 algorithms across 20 of 22 modules.**
+**Coverage so far: 392 of 396 algorithms across 21 of 22 modules.**
 
 ## Available modules
 
@@ -34,12 +34,12 @@ Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm), e
 | [Network Design](network_design/README.md) | 5 | Decide where warehouses go and how demand maps to them. |
 | [Routing & Transportation](routing/README.md) | 30 | Plan routes for trucks, deliveries, and service visits. |
 | [Optimization](optimization/README.md) | 30 | Classic tools for squeezing the best out of limited resources. |
+| [IoT & Sensors](iot/README.md) | 4 | Turn sensor data into live inventory and alerts. |
 
 ## On the way
 
 These modules are being written right now and will land here as they finish:
 
-- IoT & Sensors (4 algorithms)
 - Traceability & Blockchain (4 algorithms)
 
 ## How to use the library
