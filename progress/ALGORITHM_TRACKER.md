@@ -468,3 +468,10 @@ Mark a box **only** when you can do all three:
 - [ ] [IoT Anomaly Detection](../algorithms/iot/anomaly_detection.md)
 - [ ] [Real-Time Inventory Monitor](../algorithms/iot/realtime_inventory_monitor.md)
 - [ ] [IoT Data Aggregation](../algorithms/iot/iot_data_aggregation.md)
+
+## Traceability & Blockchain (4)
+
+- [ ] [Hash Chain](../algorithms/blockchain/hash_chain.md)
+- [ ] [Chain Verification](../algorithms/blockchain/verify_chain.md)
+- [ ] [Provenance Tracking](../algorithms/blockchain/provenance_tracking.md)
+- [ ] [Smart Contract Check](../algorithms/blockchain/smart_contract_check.md)
