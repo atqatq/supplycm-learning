@@ -76,6 +76,20 @@ A: 60% is typical. World class is 85%. Look at which component is lowest (availa
 
 A: It says: the stuff in progress equals the rate of production times the time each unit takes. If you make 10 per hour and each takes 5 hours, you have 50 in progress. Simple as that.
 
+## The Algorithm Library
+
+### Q: What is the algorithm library?
+
+A: A plain-English page for every algorithm in the supplycm package - all 396 of them. Each page has a runnable example, three self-check questions, and a small challenge. Start at [algorithms/README.md](algorithms/README.md).
+
+### Q: Do I have to learn all 396 algorithms?
+
+A: No. The [6-month program](SIX_MONTH_PLAN.md) sequences the ones that matter most; the tracker lets you check off what you master. Many professionals use the library as a reference and study 100-150 pages deeply.
+
+### Q: Can I really understand them without math?
+
+A: Yes - that is the point of the library. Every page explains the idea in everyday words, shows a small worked example, and labels the difficulty. The only arithmetic used is +, -, x, and division.
+
 ## Next Steps
 
 ### Q: I finished all 12 modules. What now?
