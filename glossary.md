@@ -76,6 +76,8 @@ Simple definitions of supply chain terms used in these lessons.
 
 **Kraljic Matrix**: Tool for sorting suppliers by risk and profit impact.
 
+**Kanban**: Card-based pull system where each card authorizes one container of parts.
+
 ## L
 
 **Lead Time**: Time from placing an order to receiving it.
@@ -103,6 +105,10 @@ Simple definitions of supply chain terms used in these lessons.
 ## P
 
 **P-chart**: Control chart for proportion defective.
+
+**Pegging**: Tracing a component requirement back to the parent order that caused it.
+
+**Phantom BOM**: A logical grouping in a bill of materials that is never built or stocked as a real item.
 
 **Provenance**: The history of a product through the supply chain.
 
@@ -171,3 +177,13 @@ Simple definitions of supply chain terms used in these lessons.
 ## X
 
 **X-bar Chart**: Control chart for monitoring process mean.
+
+## Y
+
+**Yield**: The share of production output that is usable (the rest is scrap or rework).
+
+## Z
+
+**Z-Score**: How many standard deviations a value sits from the average - the "surprise scale".
+
+**ZOPA (Zone of Possible Agreement)**: The overlap between a buyer’s maximum and a seller’s minimum in a negotiation.
