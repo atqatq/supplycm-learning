@@ -49,3 +49,12 @@ Reinforce what you learned:
 
 - Flashcard deck: [flashcards/flashcards_routing.md](../../flashcards/flashcards_routing.md)
 - Recall drill: [drills/drill_routing.md](../../drills/drill_routing.md)
+
+## Choosing between the routing methods
+
+- **One vehicle, quick route?** Nearest Neighbor, then improve with 2-Opt.
+- **Want better than greedy without heavy machinery?** Cheapest Insertion.
+- **Need the true optimum on a small stop set?** Held-Karp.
+- **Several vehicles with capacity limits?** Clarke-Wright Savings or CVRP Greedy.
+- **Time windows matter?** VRP with Time Windows.
+- **Covering every street (not every stop)?** Chinese or Rural Postman.

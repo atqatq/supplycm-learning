@@ -49,3 +49,12 @@ Reinforce what you learned:
 
 - Flashcard deck: [flashcards/flashcards_supplier.md](../../flashcards/flashcards_supplier.md)
 - Recall drill: [drills/drill_supplier.md](../../drills/drill_supplier.md)
+
+## Choosing between the selection methods
+
+- **Need a simple, defensible score?** Weighted Point Method or Vendor Scorecard.
+- **Weights must come from structured judgment?** AHP.
+- **Mixed benefit/cost criteria with hard data?** TOPSIS.
+- **One catastrophic weakness must veto a supplier?** ELECTRE.
+- **Judgments are linguistic ranges, not numbers?** Fuzzy TOPSIS.
+- **Benchmarking efficiency across different-sized units?** DEA.
