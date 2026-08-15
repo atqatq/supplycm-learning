@@ -36,6 +36,30 @@ A collection of easy-to-follow lessons that explain supply chain ideas in plain 
 11. [Being Green (Sustainability)](modules/11_sustainability.md)
 12. [Putting It All Together](modules/12_putting_it_together.md)
 
+### Interactive Notebooks (notebooks/)
+Run these in Jupyter to learn by doing:
+1. [Supply Chain Basics](notebooks/01_supply_chain_basics.ipynb)
+2. [Forecasting](notebooks/02_forecasting.ipynb)
+3. [Inventory](notebooks/03_inventory.ipynb)
+4. [Quality](notebooks/04_quality.ipynb)
+5. [Lean](notebooks/05_lean.ipynb)
+6. [Transportation](notebooks/06_transportation.ipynb)
+7. [Suppliers](notebooks/07_suppliers.ipynb)
+8. [Warehouses](notebooks/08_warehouses.ipynb)
+9. [S&OP](notebooks/09_sop.ipynb)
+10. [Contracts](notebooks/10_contracts.ipynb)
+11. [Sustainability](notebooks/11_sustainability.ipynb)
+12. [Complete Example](notebooks/12_complete_example.ipynb)
+
+```bash
+# To run notebooks:
+pip install jupyter
+jupyter notebook notebooks/
+```
+
+### Detailed Sub-Lessons (sub-lessons/)
+Break down complex topics step by step: [sub-lessons/](sub-lessons/)
+
 ### Practice (exercises/)
 12 exercises with problems and answers: [exercises/](exercises/)
 
@@ -51,7 +75,7 @@ A collection of easy-to-follow lessons that explain supply chain ideas in plain 
 
 ### Reference
 - [Glossary](glossary.md) - definitions of all terms
-- [Cheat Sheet](cheatsheet.md) - quick formula reference
+- [Cheat Sheet](cheatsheet.md) - quick formula reference (Python notation)
 - [FAQ](FAQ.md) - frequently asked questions
 
 ## Prerequisites
@@ -80,16 +104,20 @@ pip install supplycm
 
 # Start with Module 1
 open modules/01_what_is_supply_chain.md
+
+# Or run the notebooks
+pip install jupyter
+jupyter notebook notebooks/
 ```
 
 ## Learning Path
 
 | Time | What to Do |
 |------|-----------|
-| Week 1 | Modules 1-3 (basics, forecasting, inventory) |
-| Week 2 | Modules 4-6 (suppliers, warehouses, transportation) |
-| Week 3 | Modules 7-9 (quality, lean, S&OP) |
-| Week 4 | Modules 10-12 (contracts, sustainability, integration) |
+| Week 1 | Modules 1-3 + Notebooks 1-3 |
+| Week 2 | Modules 4-6 + Notebooks 6-8 |
+| Week 3 | Modules 7-9 + Notebooks 4-5, 9 |
+| Week 4 | Modules 10-12 + Notebooks 10-12 |
 | Week 5 | Exercises and quizzes |
 | Week 6 | Real-world examples and final exam |
 
