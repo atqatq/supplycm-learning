@@ -1,3 +1,9 @@
+---
+title: "Sales and Operations Planning (S&OP) Tutorial"
+description: "Learn S&OP: demand-supply matching, chase production strategy, level production strategy, and the monthly S&OP cycle."
+keywords: "S&OP, sales and operations planning, chase strategy, level strategy, demand planning, supply planning, production planning"
+---
+
 # Module 9: Planning Ahead (S&OP)
 
 ## The Big Idea

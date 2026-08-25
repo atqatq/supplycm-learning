@@ -1,3 +1,9 @@
+---
+title: "Supply Chain Basics Quiz | Test Your Knowledge"
+description: "Test your understanding of supply chain basics with this 10-question quiz. Includes answers and scoring."
+keywords: "supply chain quiz, basics quiz, test, practice questions, SCM fundamentals"
+---
+
 # Quiz 1: Supply Chain Basics
 
 **Questions: 10 | Pass score: 70%**

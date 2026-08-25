@@ -1,3 +1,9 @@
+---
+title: "T-Shirt Business Supply Chain | Procurement and Contracts"
+description: "Supply chain example for a t-shirt printing business. Learn bulk purchasing, supplier contracts, and sustainability."
+keywords: "t-shirt business, apparel supply chain, procurement, buyback contract, sustainable fashion, screen printing"
+---
+
 # Example: T-Shirt Business
 
 ## The Business

@@ -1,3 +1,9 @@
+---
+title: "Demand Forecasting Exercise | Practice with Python"
+description: "Practice demand forecasting: naive method, moving average, exponential smoothing. Includes answers."
+keywords: "forecasting exercise, demand forecasting practice, moving average, exponential smoothing, MAPE"
+---
+
 # Exercise 2: Forecasting
 
 ## Problem

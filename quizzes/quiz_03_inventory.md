@@ -1,3 +1,9 @@
+---
+title: "Inventory Management Quiz | EOQ and Safety Stock"
+description: "Test your inventory management knowledge: EOQ, safety stock, reorder point, ABC analysis."
+keywords: "inventory quiz, EOQ test, safety stock quiz, ABC analysis, reorder point"
+---
+
 # Quiz 3: Inventory
 
 **Questions: 5 | Pass score: 70%**

@@ -1,3 +1,9 @@
+---
+title: "Online Toy Store Supply Chain | Example with Python"
+description: "Supply chain management example for an online toy store. Learn seasonal forecasting, ABC analysis, and warehouse slotting."
+keywords: "toy store supply chain, online retail, seasonal demand, ABC analysis, warehouse management, e-commerce"
+---
+
 # Example: Online Toy Store
 
 ## The Business

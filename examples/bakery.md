@@ -1,3 +1,9 @@
+---
+title: "Bakery Operations: Supply Chain for Perishable Goods"
+description: "Learn supply chain management for a bakery. Newsvendor model for perishable goods, quality control, and lean operations."
+keywords: "bakery supply chain, perishable goods, newsvendor model, food supply chain, quality control, lean operations"
+---
+
 # Example: Bakery Operations
 
 ## The Business

@@ -1,3 +1,9 @@
+---
+title: "Warehouse Management: Slotting, Picking, Layout"
+description: "Learn warehouse management: ABC slotting, order picking routes, cross-docking, pallet building, and warehouse layout optimization."
+keywords: "warehouse management, ABC slotting, order picking, cross-docking, pallet building, warehouse layout, storage optimization"
+---
+
 # Module 5: Storing Stuff (Warehouses)
 
 ## The Big Idea

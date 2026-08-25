@@ -1,3 +1,9 @@
+---
+title: "Supply Chain Management Glossary | Terms and Definitions"
+description: "Complete glossary of supply chain terms: EOQ, DPMO, OEE, S&OP, AHP, TOPSIS, takt time, and more. Simple definitions."
+keywords: "supply chain glossary, SCM terms, definitions, logistics vocabulary, operations management terms"
+---
+
 # Glossary
 
 Simple definitions of supply chain terms used in these lessons.

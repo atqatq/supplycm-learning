@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://atqatq.github.io/supplycm-learning/sitemap.xml

@@ -1,3 +1,9 @@
+---
+title: "Demand Forecasting Methods | Supply Chain Tutorial"
+description: "Learn demand forecasting: naive method, moving average, exponential smoothing, Holt-Winters, Croston's method. Includes Python code and MAPE accuracy metric."
+keywords: "demand forecasting, forecasting methods, moving average, exponential smoothing, Holt-Winters, Croston method, MAPE, forecast accuracy"
+---
+
 # Module 2: Predicting the Future (Forecasting)
 
 ## The Big Idea

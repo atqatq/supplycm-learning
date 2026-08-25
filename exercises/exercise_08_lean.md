@@ -1,3 +1,9 @@
+---
+title: "Lean Manufacturing Exercise | OEE and Takt Time"
+description: "Practice lean manufacturing: calculate takt time, OEE, and cycle time efficiency."
+keywords: "lean exercise, OEE practice, takt time, Little's law, lean manufacturing problems"
+---
+
 # Exercise 8: Lean
 
 ## Problem

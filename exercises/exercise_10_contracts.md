@@ -1,3 +1,9 @@
+---
+title: "Supply Chain Contracts Exercise | Revenue Sharing"
+description: "Practice supply chain contracts: compare revenue sharing, buyback, and standard contracts."
+keywords: "contracts exercise, revenue sharing, buyback contract, quantity flexibility, supply chain agreements"
+---
+
 # Exercise 10: Contracts
 
 ## Problem

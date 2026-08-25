@@ -1,27 +1,33 @@
-# Quizzes
+# Supply Chain Quizzes - Test Your Knowledge
 
-Test your understanding with these quizzes. Each quiz covers one module.
+> Self-test quizzes for each module. Check your understanding of supply chain management concepts.
 
-## Quiz Files
+## All Quizzes
 
-1. [Quiz 1: Supply Chain Basics](quiz_01_basics.md)
-2. [Quiz 2: Forecasting](quiz_02_forecasting.md)
-3. [Quiz 3: Inventory](quiz_03_inventory.md)
-4. [Quiz 4: Suppliers](quiz_04_suppliers.md)
-5. [Quiz 5: Warehouses](quiz_05_warehouses.md)
-6. [Quiz 6: Transportation](quiz_06_transportation.md)
-7. [Quiz 7: Quality](quiz_07_quality.md)
-8. [Quiz 8: Lean](quiz_08_lean.md)
-9. [Quiz 9: S&OP](quiz_09_sop.md)
-10. [Quiz 10: Contracts](quiz_10_contracts.md)
-11. [Quiz 11: Sustainability](quiz_11_sustainability.md)
-12. [Quiz 12: Final Exam](quiz_12_final.md)
+| Quiz | Topic | Questions | Pass Score |
+|------|-------|-----------|------------|
+| [Quiz 1: Basics](quiz_01_basics.md) | Supply chain fundamentals | 10 | 70% |
+| [Quiz 2: Forecasting](quiz_02_forecasting.md) | Demand forecasting | 10 | 70% |
+| [Quiz 3: Inventory](quiz_03_inventory.md) | Inventory management | 5 | 70% |
+| [Quiz 4: Suppliers](quiz_04_suppliers.md) | Supplier selection | 5 | 70% |
+| [Quiz 5: Warehouses](quiz_05_warehouses.md) | Warehouse operations | 5 | 70% |
+| [Quiz 6: Transportation](quiz_06_transportation.md) | Route optimization | 5 | 70% |
+| [Quiz 7: Quality](quiz_07_quality.md) | Quality control | 5 | 70% |
+| [Quiz 8: Lean](quiz_08_lean.md) | Lean manufacturing | 5 | 70% |
+| [Quiz 9: S&OP](quiz_09_sop.md) | Sales and operations planning | 5 | 70% |
+| [Quiz 10: Contracts](quiz_10_contracts.md) | Supply chain contracts | 5 | 70% |
+| [Quiz 11: Sustainability](quiz_11_sustainability.md) | Green supply chain | 5 | 70% |
+| [Quiz 12: Final Exam](quiz_12_final.md) | All topics | 20 | 75% |
 
-## How to Use
+## Scoring Guide
 
-1. Answer all questions without looking at the lessons
-2. Check your answers at the bottom
-3. Score yourself:
-   - 90-100%: Excellent! You mastered this topic
-   - 70-89%: Good, review what you missed
-   - Below 70%: Re-read the module and try again
+- **90-100%**: Excellent! You have mastered this topic
+- **70-89%**: Good. Review what you missed
+- **Below 70%**: Re-read the module and try again
+
+## Tips
+
+- Take the quiz right after reading the module
+- Do not look at the lessons while taking the quiz
+- Review incorrect answers to learn from mistakes
+- Retake quizzes after a week to check retention

@@ -1,3 +1,9 @@
+---
+title: "Supply Chain Formulas Cheat Sheet | Python Reference"
+description: "Quick reference of supply chain formulas in Python notation. EOQ, safety stock, DPMO, OEE, takt time, and more."
+keywords: "supply chain formulas, cheat sheet, EOQ formula, OEE formula, DPMO, takt time, Python, quick reference"
+---
+
 # Supply Chain Cheat Sheet
 
 Quick reference for the most important formulas and concepts. All formulas use Python notation.

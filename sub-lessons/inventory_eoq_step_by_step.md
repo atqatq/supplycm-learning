@@ -1,3 +1,9 @@
+---
+title: "EOQ Step by Step: How Economic Order Quantity Works"
+description: "Detailed breakdown of EOQ formula with step-by-step calculation. Learn why ordering cost equals holding cost at EOQ."
+keywords: "EOQ step by step, economic order quantity explained, EOQ calculation, inventory cost optimization"
+---
+
 # How EOQ Works Step by Step
 
 ## The Problem

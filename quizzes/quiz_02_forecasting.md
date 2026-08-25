@@ -1,3 +1,9 @@
+---
+title: "Demand Forecasting Quiz | Test Your Knowledge"
+description: "Test your forecasting knowledge: naive method, moving average, exponential smoothing, MAPE."
+keywords: "forecasting quiz, demand forecasting test, MAPE, moving average, exponential smoothing quiz"
+---
+
 # Quiz 2: Forecasting
 
 **Questions: 10 | Pass score: 70%**

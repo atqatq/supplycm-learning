@@ -1,3 +1,9 @@
+---
+title: "Transportation and Route Optimization | TSP and VRP"
+description: "Learn transportation routing: Traveling Salesman Problem (TSP), Vehicle Routing Problem (VRP), nearest neighbor, 2-opt, and Hungarian algorithm."
+keywords: "transportation routing, TSP, traveling salesman problem, VRP, vehicle routing problem, route optimization, nearest neighbor, 2-opt, Hungarian algorithm"
+---
+
 # Module 6: Moving Stuff Around (Transportation)
 
 ## The Big Idea

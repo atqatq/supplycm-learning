@@ -1,3 +1,9 @@
+---
+title: "Supplier Management: AHP, TOPSIS, Kraljic Matrix"
+description: "Learn supplier selection and management: Analytic Hierarchy Process (AHP), TOPSIS ranking, Kraljic matrix, and supplier performance metrics."
+keywords: "supplier management, supplier selection, AHP, analytic hierarchy process, TOPSIS, Kraljic matrix, supplier evaluation, procurement"
+---
+
 # Module 4: Working with Suppliers
 
 ## The Big Idea

@@ -1,3 +1,9 @@
+---
+title: "Complete Supply Chain Exercise | Coffee Shop Planning"
+description: "Comprehensive exercise: plan an entire coffee shop supply chain from forecasting to sustainability."
+keywords: "supply chain exercise, complete case study, coffee shop, integrated supply chain planning"
+---
+
 # Exercise 12: Complete Scenario
 
 ## Problem

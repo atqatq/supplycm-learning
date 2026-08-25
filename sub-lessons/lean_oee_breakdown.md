@@ -1,3 +1,9 @@
+---
+title: "OEE Breakdown: Availability, Performance, Quality"
+description: "Detailed explanation of Overall Equipment Effectiveness (OEE) with examples for each component."
+keywords: "OEE breakdown, availability performance quality, equipment effectiveness, lean manufacturing metric"
+---
+
 # OEE Breakdown
 
 ## What is OEE?

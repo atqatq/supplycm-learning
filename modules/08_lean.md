@@ -1,3 +1,9 @@
+---
+title: "Lean Manufacturing: Takt Time, OEE, Little's Law"
+description: "Learn lean manufacturing: takt time, Overall Equipment Effectiveness (OEE), Little's Law, 8 wastes (DOWNTIME), and 5S methodology."
+keywords: "lean manufacturing, takt time, OEE, overall equipment effectiveness, Little's law, 8 wastes, DOWNTIME, 5S, lean production"
+---
+
 # Module 8: Working Smart (Lean)
 
 ## The Big Idea

@@ -1,3 +1,9 @@
+---
+title: "Nearest Neighbor Algorithm Explained Step by Step"
+description: "Learn how the nearest neighbor algorithm works for solving TSP. Step-by-step routing example."
+keywords: "nearest neighbor algorithm, TSP heuristic, routing algorithm, traveling salesman, greedy algorithm"
+---
+
 # How Nearest Neighbor Works
 
 ## The Problem

@@ -1,3 +1,9 @@
+---
+title: "Quality Control Exercise | DPMO and Sigma Level"
+description: "Practice quality management: calculate DPMO, sigma level, and check Six Sigma targets."
+keywords: "quality exercise, DPMO practice, sigma level, Six Sigma, quality control problems"
+---
+
 # Exercise 7: Quality
 
 ## Problem

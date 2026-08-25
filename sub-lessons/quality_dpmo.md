@@ -1,3 +1,9 @@
+---
+title: "DPMO Explained: How to Calculate Defects Per Million"
+description: "Step-by-step guide to DPMO calculation. Learn how Six Sigma uses DPMO to measure quality."
+keywords: "DPMO explained, defects per million, Six Sigma, quality metric, sigma level, process quality"
+---
+
 # Understanding DPMO
 
 ## What is DPMO?

@@ -1,3 +1,9 @@
+---
+title: "Quality Control and Six Sigma | DPMO, Cp, Cpk"
+description: "Learn quality management: Six Sigma methodology, DPMO calculation, process capability (Cp, Cpk), control charts, and DMAIC process."
+keywords: "quality control, Six Sigma, DPMO, defects per million, Cp, Cpk, process capability, control charts, DMAIC, quality management"
+---
+
 # Module 7: Making Good Stuff (Quality)
 
 ## The Big Idea

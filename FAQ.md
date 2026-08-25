@@ -1,3 +1,9 @@
+---
+title: "Supply Chain Management FAQ | Frequently Asked Questions"
+description: "Answers to common supply chain questions. Learn about forecasting, inventory, quality, lean, and more."
+keywords: "supply chain FAQ, frequently asked questions, SCM help, supply chain basics, operations management"
+---
+
 # Frequently Asked Questions
 
 ## Getting Started

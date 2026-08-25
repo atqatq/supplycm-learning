@@ -1,3 +1,9 @@
+---
+title: "Inventory Management: EOQ, Safety Stock, Reorder Point"
+description: "Learn inventory management: Economic Order Quantity (EOQ), safety stock, reorder point, ABC analysis, and newsvendor model. Python code examples included."
+keywords: "inventory management, EOQ, economic order quantity, safety stock, reorder point, ABC analysis, newsvendor model, stock management"
+---
+
 # Module 3: Having the Right Amount of Stuff (Inventory)
 
 ## The Big Idea

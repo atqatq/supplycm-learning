@@ -1,3 +1,9 @@
+---
+title: "Supply Chain Management Final Exam | 20 Questions"
+description: "Comprehensive final exam covering all 12 modules. 20 questions on forecasting, inventory, quality, lean, and more."
+keywords: "supply chain final exam, comprehensive test, SCM exam, supply chain certification, practice test"
+---
+
 # Quiz 12: Final Exam
 
 **Questions: 20 | Pass score: 75%**

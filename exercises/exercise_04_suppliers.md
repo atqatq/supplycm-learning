@@ -1,3 +1,9 @@
+---
+title: "Supplier Selection Exercise | AHP and TOPSIS Practice"
+description: "Practice supplier selection using AHP and TOPSIS methods. Includes step-by-step solution."
+keywords: "supplier selection exercise, AHP practice, TOPSIS, supplier evaluation, procurement exercise"
+---
+
 # Exercise 4: Suppliers
 
 ## Problem

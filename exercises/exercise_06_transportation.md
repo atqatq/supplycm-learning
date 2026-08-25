@@ -1,3 +1,9 @@
+---
+title: "Route Optimization Exercise | TSP and VRP Practice"
+description: "Practice transportation routing: solve TSP with nearest neighbor and 2-opt. Vehicle routing problem exercise."
+keywords: "routing exercise, TSP practice, VRP, route optimization, nearest neighbor, 2-opt"
+---
+
 # Exercise 6: Transportation
 
 ## Problem

@@ -1,3 +1,9 @@
+---
+title: "What is a Supply Chain? | Learn Supply Chain Management"
+description: "Learn what a supply chain is in plain English. Understand the 5 steps: Plan, Source, Make, Deliver, Return. Free supply chain management tutorial for beginners."
+keywords: "supply chain, supply chain management, what is supply chain, SCM basics, plan source make deliver return"
+---
+
 # Module 1: What is a Supply Chain?
 
 ## The Big Idea

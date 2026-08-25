@@ -1,3 +1,9 @@
+---
+title: "Sustainability Exercise | Carbon Footprint Calculation"
+description: "Practice sustainable supply chain: calculate carbon footprint and compare transport modes."
+keywords: "sustainability exercise, carbon footprint, green logistics, reverse logistics, environmental impact"
+---
+
 # Exercise 11: Sustainability
 
 ## Problem

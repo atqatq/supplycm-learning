@@ -1,3 +1,9 @@
+---
+title: "Bicycle Shop Supply Chain | Seasonal Demand Planning"
+description: "Complete supply chain for a bicycle shop. Seasonal forecasting, S&OP planning, and service quality management."
+keywords: "bicycle shop, seasonal demand, S&OP, sales and operations planning, service quality, retail supply chain"
+---
+
 # Example: Bicycle Shop
 
 ## The Business

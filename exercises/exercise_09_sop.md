@@ -1,3 +1,9 @@
+---
+title: "S&OP Exercise | Chase vs Level Production Strategy"
+description: "Practice Sales and Operations Planning: compare chase and level production strategies."
+keywords: "S&OP exercise, chase strategy, level strategy, production planning, demand supply matching"
+---
+
 # Exercise 9: S&OP
 
 ## Problem

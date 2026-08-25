@@ -1,3 +1,9 @@
+---
+title: "Complete Supply Chain Example: Coffee Shop Case Study"
+description: "Apply all supply chain concepts to a real business. Complete coffee shop supply chain walkthrough with Python code."
+keywords: "supply chain example, case study, coffee shop supply chain, complete example, supply chain integration"
+---
+
 # Module 12: Putting It All Together
 
 ## The Big Idea

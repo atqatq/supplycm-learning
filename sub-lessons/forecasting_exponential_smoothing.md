@@ -1,3 +1,9 @@
+---
+title: "Exponential Smoothing Explained Step by Step"
+description: "Learn exponential smoothing with day-by-day example. Understand alpha parameter and how to choose it."
+keywords: "exponential smoothing, alpha parameter, forecasting method, weighted average, time series"
+---
+
 # Understanding Exponential Smoothing
 
 ## The Idea

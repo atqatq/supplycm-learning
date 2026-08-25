@@ -1,3 +1,9 @@
+---
+title: "Coffee Shop Supply Chain Example | Real Case Study"
+description: "Complete supply chain analysis of a coffee shop. Forecast demand, calculate inventory, choose suppliers, and plan deliveries with Python code."
+keywords: "coffee shop supply chain, supply chain example, case study, demand forecasting, inventory management, supplier selection"
+---
+
 # Example: Coffee Shop Supply Chain
 
 ## The Business

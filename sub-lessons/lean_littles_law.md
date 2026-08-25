@@ -1,3 +1,9 @@
+---
+title: "Little's Law Explained: WIP = Throughput x Flow Time"
+description: "Simple explanation of Little's Law with bakery and car wash examples. Learn how WIP relates to throughput."
+keywords: "Little's law, WIP calculation, throughput, flow time, lean manufacturing, queueing theory"
+---
+
 # Little's Law Explained
 
 ## The Idea

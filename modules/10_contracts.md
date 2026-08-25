@@ -1,3 +1,9 @@
+---
+title: "Supply Chain Contracts: Revenue Sharing, Buyback"
+description: "Learn supply chain contracts: revenue sharing, buyback contracts, quantity flexibility, and double marginalization."
+keywords: "supply chain contracts, revenue sharing contract, buyback contract, quantity flexibility, double marginalization, supplier contracts"
+---
+
 # Module 10: Making Deals (Contracts)
 
 ## The Big Idea

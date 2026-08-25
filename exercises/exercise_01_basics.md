@@ -1,3 +1,9 @@
+---
+title: "Supply Chain Basics Exercise | Practice Problems"
+description: "Practice supply chain basics with this exercise. Trace a product supply chain and identify key steps."
+keywords: "supply chain exercise, practice problems, supply chain basics, beginner exercise"
+---
+
 # Exercise 1: Supply Chain Basics
 
 ## Problem

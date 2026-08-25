@@ -1,3 +1,9 @@
+---
+title: "Inventory Management Exercise | EOQ Practice"
+description: "Practice inventory management: calculate EOQ, safety stock, and reorder point with this exercise."
+keywords: "inventory exercise, EOQ practice, safety stock, reorder point, inventory management problems"
+---
+
 # Exercise 3: Inventory
 
 ## Problem

@@ -1,3 +1,9 @@
+---
+title: "Green Supply Chain: Carbon Footprint, Reverse Logistics"
+description: "Learn sustainable supply chain management: carbon footprint calculation, reverse logistics, energy consumption, and the three R's."
+keywords: "sustainable supply chain, green logistics, carbon footprint, reverse logistics, energy consumption, sustainability, reduce reuse recycle"
+---
+
 # Module 11: Being Green (Sustainability)
 
 ## The Big Idea

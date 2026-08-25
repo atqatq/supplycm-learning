@@ -1,3 +1,9 @@
+---
+title: "Warehouse Management Exercise | ABC Slotting Practice"
+description: "Practice warehouse management: ABC analysis, slotting, and picking route planning."
+keywords: "warehouse exercise, ABC slotting, order picking, warehouse layout practice"
+---
+
 # Exercise 5: Warehouses
 
 ## Problem
