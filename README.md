@@ -196,9 +196,22 @@ After completing this course, you will be able to:
 
 ## Community
 
-- **[Discussions](https://github.com/atqatq/supplycm-learning/discussions)** - Ask questions, share ideas
+- **[Discussions](https://github.com/atqatq/supplycm-learning/discussions)** - Ask questions, share ideas, introduce yourself
 - **[Issues](https://github.com/atqatq/supplycm-learning/issues)** - Report mistakes or suggest improvements
 - **[Contributing Guide](CONTRIBUTING.md)** - Help improve these lessons
+
+### Ways to Contribute
+
+We welcome contributions of all sizes! Look for issues labeled `good first issue` for beginner-friendly tasks:
+
+- **Translations** - Help translate lessons to Spanish, Chinese, French, and more
+- **Real-world examples** - Add case studies from pharmacy, restaurant, manufacturing
+- **Visualizations** - Create diagrams and charts to explain concepts
+- **Exercises and quizzes** - Add practice problems
+- **Notebooks** - Create interactive Jupyter notebooks
+- **Documentation** - Fix typos, improve explanations, expand FAQ
+
+See [open issues](https://github.com/atqatq/supplycm-learning/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22) for ideas.
 
 ## Related Resources
 
