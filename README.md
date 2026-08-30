@@ -41,15 +41,17 @@ This course teaches you how to manage a supply chain step by step. You will lear
 
 ## The Algorithm Library
 
-We are writing a plain-English page for EVERY algorithm in the
-[supplycm package](https://github.com/atqatq/supplycm). Over 290 pages are
-done - forecasting, the inventory toolbox, MRP, and scheduling are complete,
-and the network, routing, and optimization libraries are landing now. Each page
-has a runnable example, three self-check questions, and a challenge.
+Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm)
+now has its own plain-English page - **all 396 of them** - each with:
+
+- a runnable example (executed before publishing, so the shown output is real),
+- three "check yourself" questions with hidden answers,
+- a "try this now" challenge for your own numbers,
+- a matching flashcard deck and recall drill.
 
 Browse the library: [algorithms/](algorithms/README.md) - track your progress
-with the [tracker](progress/ALGORITHM_TRACKER.md). A full six-month guided
-program is taking shape in [SIX_MONTH_PLAN.md](SIX_MONTH_PLAN.md).
+with the [tracker](progress/ALGORITHM_TRACKER.md) - and follow the full
+program in [SIX_MONTH_PLAN.md](SIX_MONTH_PLAN.md).
 
 ## Quick Start
 
@@ -135,6 +137,15 @@ Apply everything to a real business: a complete coffee shop supply chain walkthr
 ### Detailed Sub-Lessons
 Step-by-step breakdowns of complex topics: [sub-lessons/](sub-lessons/)
 
+### Flashcard Decks
+Spaced-repetition decks per module: [flashcards/](flashcards/)
+
+### Recall Drills
+Self-test drills with answer keys: [drills/](drills/)
+
+### Progress Tracker
+Check off all 396 algorithms as you master them: [progress/ALGORITHM_TRACKER.md](progress/ALGORITHM_TRACKER.md)
+
 ### Practice Exercises
 12 exercises with problems and answers: [exercises/](exercises/)
 
@@ -153,7 +164,16 @@ Step-by-step breakdowns of complex topics: [sub-lessons/](sub-lessons/)
 - [Cheat Sheet](cheatsheet.md) - quick formula reference in Python notation
 - [FAQ](FAQ.md) - frequently asked questions
 
-## Recommended Learning Path
+## The 6-Month Guided Program
+
+Prefer a schedule? The [6-month program](SIX_MONTH_PLAN.md) organizes
+everything below into 26 weeks with four moves per week - learn, practice,
+recall, apply - monthly checkpoints, and a capstone project. It takes a
+complete beginner to highly capable supply chain professional in 5-6 hours
+per week, with no math beyond basic arithmetic.
+
+Short on time? The original fast path still works: read one module group per
+week for 8 weeks (table below), then take the final exam.
 
 | Week | Focus | Modules |
 |------|-------|---------|
