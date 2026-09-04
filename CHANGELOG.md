@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.3.0] - 2026-09-04
+
+### Added
+- Networks, routing, and optimization library pages complete
+- IoT and traceability library pages
+- "Which method when" guidance for supplier and routing libraries
+- Expanded FAQ and glossary covering library topics
+- Cheat sheet now indexes every algorithm in the package
+
+## [1.2.0] - 2026-08-30
+
+### Added
+- The Algorithm Library: 396 plain-English algorithm pages, one per supplycm function
+- Every page: runnable example, 3 self-check questions, a challenge
+- Flashcard deck and recall drill per module (generated from the lessons)
+- Progress tracker for all 396 algorithms
+- Finalized 6-month guided program with weekly checkpoints
+
+
 ## [1.1.0] - 2026-08-20
 
 ### Added
