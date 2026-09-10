@@ -56,4 +56,4 @@ Scores per node - 0 and 1 gatekeep all traffic between the {2} side and the {3} 
 Compute betweenness before and after adding one bypass edge; watch the gatekeeper's score and your risk fall together.
 
 ---
-[← Degree Centrality](degree_centrality.md) · [Back to Networks library](README.md) · [Eigenvector Centrality →](eigenvector_centrality.md)
+[← Closeness Centrality](closeness_centrality.md) · [Back to Networks library](README.md) · [Eigenvector Centrality →](eigenvector_centrality.md)

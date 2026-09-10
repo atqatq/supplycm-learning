@@ -146,7 +146,7 @@ cost = return_rate * (processing_cost + disposal_cost * (1 - resale_value / unit
 
 ## Every Algorithm at a Glance
 
-The full library - all 396 algorithms, one line each. Detailed pages live in the [algorithm library](algorithms/README.md).
+The full library - all 397 algorithms, one line each. Detailed pages live in the [algorithm library](algorithms/README.md).
 
 ### Statistics & Accuracy (40)
 
@@ -522,7 +522,7 @@ from supplycm.scheduling import lrpt_rule
 from supplycm.scheduling import machine_utilization
 ```
 
-### Networks (29)
+### Networks (30)
 
 ```python
 from supplycm.network import bfs_shortest_path
@@ -540,6 +540,7 @@ from supplycm.network import topological_sort
 from supplycm.network import articulation_points
 from supplycm.network import bridges_in_graph
 from supplycm.network import degree_centrality
+from supplycm.network import closeness_centrality  # reserved slot in v1.2.1 (stub) - see library page
 from supplycm.network import betweenness_centrality
 from supplycm.network import eigenvector_centrality
 from supplycm.network import page_rank

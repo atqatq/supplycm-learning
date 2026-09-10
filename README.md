@@ -42,12 +42,16 @@ This course teaches you how to manage a supply chain step by step. You will lear
 ## The Algorithm Library
 
 Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm)
-now has its own plain-English page - **all 396 of them** - each with:
+now has its own plain-English page - **all 397 of them** - each with:
 
 - a runnable example (executed before publishing, so the shown output is real),
 - three "check yourself" questions with hidden answers,
 - a "try this now" challenge for your own numbers,
 - a matching flashcard deck and recall drill.
+
+One honest exception: supplycm v1.2.1 ships `closeness_centrality` as a reserved
+stub - no function yet - so that page teaches the concept with a pure-Python
+stand-in and swaps to the real import the day it lands.
 
 Browse the library: [algorithms/](algorithms/README.md) - track your progress
 with the [tracker](progress/ALGORITHM_TRACKER.md) - and follow the full
@@ -144,7 +148,7 @@ Spaced-repetition decks per module: [flashcards/](flashcards/)
 Self-test drills with answer keys: [drills/](drills/)
 
 ### Progress Tracker
-Check off all 396 algorithms as you master them: [progress/ALGORITHM_TRACKER.md](progress/ALGORITHM_TRACKER.md)
+Check off all 397 algorithms as you master them: [progress/ALGORITHM_TRACKER.md](progress/ALGORITHM_TRACKER.md)
 
 ### Practice Exercises
 12 exercises with problems and answers: [exercises/](exercises/)

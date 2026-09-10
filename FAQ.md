@@ -86,9 +86,9 @@ A: It says: the stuff in progress equals the rate of production times the time e
 
 ### Q: What is the algorithm library?
 
-A: A plain-English page for every algorithm in the supplycm package - all 396 of them. Each page has a runnable example, three self-check questions, and a small challenge. Start at [algorithms/README.md](algorithms/README.md).
+A: A plain-English page for every algorithm in the supplycm package - all 397 of them. Each page has a runnable example, three self-check questions, and a small challenge. (One exception, stated openly: `closeness_centrality` is a reserved stub in supplycm v1.2.1, so its page teaches the concept with a pure-Python stand-in.) Start at [algorithms/README.md](algorithms/README.md).
 
-### Q: Do I have to learn all 396 algorithms?
+### Q: Do I have to learn all 397 algorithms?
 
 A: No. The [6-month program](SIX_MONTH_PLAN.md) sequences the ones that matter most; the tracker lets you check off what you master. Many professionals use the library as a reference and study 100-150 pages deeply.
 

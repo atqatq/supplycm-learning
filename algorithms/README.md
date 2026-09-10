@@ -8,7 +8,7 @@ keywords: "supplycm, algorithm library, supply chain, plain english"
 
 Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm), explained in simple English with a runnable example and built-in self-testing. No math beyond +, -, ×, ÷.
 
-**Coverage so far: 396 of 396 algorithms across 22 of 22 modules.**
+**Coverage so far: 397 of 397 algorithms across 22 of 22 modules.**
 
 ## Available modules
 
@@ -30,7 +30,7 @@ Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm), e
 | [Inventory](inventory/README.md) | 60 | How much to buy, when to buy, and how much buffer to keep. |
 | [Forecasting](forecasting/README.md) | 50 | Predict next week's, next month's, next quarter's demand. |
 | [Scheduling](scheduling/README.md) | 40 | Decide the order of jobs so everything finishes on time. |
-| [Networks](network/README.md) | 29 | Find paths, hubs, and weak points in a network of places. |
+| [Networks](network/README.md) | 30 | Find paths, hubs, and weak points in a network of places. |
 | [Network Design](network_design/README.md) | 5 | Decide where warehouses go and how demand maps to them. |
 | [Routing & Transportation](routing/README.md) | 30 | Plan routes for trucks, deliveries, and service visits. |
 | [Optimization](optimization/README.md) | 30 | Classic tools for squeezing the best out of limited resources. |
@@ -47,6 +47,8 @@ Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm), e
 
 ## Coverage complete
 
-All 396 algorithms across 22 modules are now covered. New supplycm algorithms
-will be added here as the package grows - the tracker and the 6-month program
-update alongside.
+All 397 algorithms across 22 modules are now covered - 396 with executed
+supplycm examples, plus the reserved `closeness_centrality` slot (a stub file
+in supplycm v1.2.1), taught as a concept with a pure-Python stand-in. New
+supplycm algorithms will be added here as the package grows - the tracker and
+the 6-month program update alongside.

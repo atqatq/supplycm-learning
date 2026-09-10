@@ -1,6 +1,6 @@
 ---
 title: "Recall Drill: Networks | supplycm Learning"
-description: "Active-recall drill with answer key covering all 29 supplycm networks algorithms."
+description: "Active-recall drill with answer key covering all 30 supplycm networks algorithms."
 keywords: "drill, recall, network, supply chain practice"
 ---
 
@@ -185,7 +185,13 @@ Score 1 point per correct answer. Anything you miss goes back on your flashcard 
 86. Cycle canceling vs successive shortest path - style difference?
 87. What practical inputs must be honest here?
 
-Total: 87 questions.
+**Closeness Centrality** (`closeness_centrality` - reserved slot in v1.2.1)
+
+88. What does closeness centrality count that degree centrality misses?
+89. In supply chain words, what does a high-closeness warehouse give you?
+90. Both ends of a line network have 1 link each - why does closeness still favor the middle node?
+
+Total: 90 questions.
 
 ## Part 2 - Answer key
 
@@ -276,5 +282,8 @@ Total: 87 questions.
 85. Reduced costs keep every future choice honest - each batch extends the optimal solution rather than spoiling it.
 86. Fix-then-fix vs build-right-the-first-time - same optimum, opposite workflows.
 87. Capacities, lane costs, and supplies - the model optimizes exactly what you encode; sloppy costs give confidently wrong plans.
+88. Shortest hops to EVERYONE - it averages how far a node sits from all others, while degree only counts direct links.
+89. Fewer hops to every store, plant, and customer - faster service and quicker rebalancing from one well-placed spot.
+90. Placement beats size: the middle sits 1-2 hops from everyone, while the two ends are far from each other - link counts can't see that.
 
 **Scoring:** 90%+ = move on · 70-89% = review misses · below 70% = reread the module library pages.

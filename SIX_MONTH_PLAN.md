@@ -213,7 +213,7 @@ This is not a reading list. It is a training program. Every week has four moves:
 
 ### Week 22 - Where to put the building: network design
 - **Learn:** center of gravity, facility location, break-even, allocation (Network Design library)
-- **Library pages:** [Network Design](algorithms/network_design/README.md) all five; Network: Closeness & Betweenness Centrality
+- **Library pages:** [Network Design](algorithms/network_design/README.md) all five; Network: [Closeness Centrality](algorithms/network/closeness_centrality.md) and [Betweenness Centrality](algorithms/network/betweenness_centrality.md)
 - **Practice:** site a DC with center of gravity, then score the candidates with facility location logic
 - **Reinforce:** flashcards `network_design`; [Drill: networks](drills/drill_network.md) part 2
 - **Apply:** write a one-page siting recommendation for your case business with evidence

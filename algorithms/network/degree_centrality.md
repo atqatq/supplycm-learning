@@ -56,4 +56,4 @@ Shares per node - nodes 0 and 1 lead with two-thirds connectivity; nodes 2 and 3
 Rank 6 nodes by degree; then find the one whose REMOVAL hurts most and note it wasn't necessarily the top degree.
 
 ---
-[← Bridges in Graph](bridges_in_graph.md) · [Back to Networks library](README.md) · [Betweenness Centrality →](betweenness_centrality.md)
+[← Bridges in Graph](bridges_in_graph.md) · [Back to Networks library](README.md) · [Closeness Centrality →](closeness_centrality.md)

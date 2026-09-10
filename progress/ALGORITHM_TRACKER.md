@@ -1,6 +1,6 @@
 ---
 title: "Algorithm Progress Tracker | supplycm Learning"
-description: "Checklist tracker for all 396 supplycm algorithms - mark each one as learned, practiced, and explained."
+description: "Checklist tracker for all 397 supplycm algorithms - mark each one as learned, practiced, and explained."
 keywords: "tracker, checklist, supply chain, progress"
 ---
 
@@ -12,7 +12,7 @@ Mark a box **only** when you can do all three:
 2. run its example and explain the output,
 3. solve the "Try this now" challenge.
 
-**Your score: 0 / 396** (update the count as you go - seeing the number climb is the point).
+**Your score: 0 / 397** (update the count as you go - seeing the number climb is the point).
 
 ## Statistics & Accuracy (40)
 
@@ -356,7 +356,7 @@ Mark a box **only** when you can do all three:
 - [ ] [LRPT (Longest Remaining Processing Time)](../algorithms/scheduling/lrpt_rule.md)
 - [ ] [Machine Utilization](../algorithms/scheduling/machine_utilization.md)
 
-## Networks (29)
+## Networks (30)
 
 - [ ] [BFS Shortest Path](../algorithms/network/bfs_shortest_path.md)
 - [ ] [DFS Traversal](../algorithms/network/dfs_traversal.md)
@@ -373,6 +373,7 @@ Mark a box **only** when you can do all three:
 - [ ] [Articulation Points](../algorithms/network/articulation_points.md)
 - [ ] [Bridges in Graph](../algorithms/network/bridges_in_graph.md)
 - [ ] [Degree Centrality](../algorithms/network/degree_centrality.md)
+- [ ] [Closeness Centrality](../algorithms/network/closeness_centrality.md)
 - [ ] [Betweenness Centrality](../algorithms/network/betweenness_centrality.md)
 - [ ] [Eigenvector Centrality](../algorithms/network/eigenvector_centrality.md)
 - [ ] [PageRank](../algorithms/network/page_rank.md)

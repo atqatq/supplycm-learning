@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.4.1] - 2026-09-10
+
+### Added
+- Closeness Centrality library page - the 397th and final algorithm slot in the
+  package. supplycm v1.2.1 ships the file as a reserved stub, so the page
+  teaches the concept with a pure-Python stand-in and states this openly.
+- Networks module now shows 30 algorithms; flashcard deck and recall drill
+  updated to match.
+
+### Updated
+- Counts across README, FAQ, cheat sheet, master library index, and progress
+  tracker: 397 of 397 algorithms across 22 modules.
+
 ## [1.4.0] - 2026-09-10
 
 ### Notes
