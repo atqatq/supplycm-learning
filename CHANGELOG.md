@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.4.0] - 2026-09-10
+
+### Notes
+- Coverage complete: all 396 supplycm algorithms are explained, drilled, and
+  tracked. The 6-month program and the library are now the recommended path.
+- Every example in the library was executed during writing; outputs shown are real.
+
+
 ## [1.3.0] - 2026-09-04
 
 ### Added

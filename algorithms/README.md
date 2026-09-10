@@ -44,3 +44,9 @@ Every algorithm in the [supplycm package](https://github.com/atqatq/supplycm), e
 3. **Recall** - answer the "Check yourself" questions before opening the answers.
 4. **Apply** - do the "Try this now" challenge with your own numbers.
 5. **Track** your progress in [progress/ALGORITHM_TRACKER.md](../progress/ALGORITHM_TRACKER.md).
+
+## Coverage complete
+
+All 396 algorithms across 22 modules are now covered. New supplycm algorithms
+will be added here as the package grows - the tracker and the 6-month program
+update alongside.
